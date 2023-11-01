@@ -11,6 +11,12 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/wasteland)
+"ay" = (
+/obj/effect/landmark/start/f13/wastelander,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/tunnel)
 "eb" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom0"
@@ -30,6 +36,14 @@
 	destination_x = 199;
 	destination_y = 141;
 	name = "To Buffalo"
+	},
+/area/f13/tunnel)
+"fu" = (
+/turf/closed/indestructible/f13/matrix/transition{
+	destination_z = 7;
+	destination_x = 61;
+	destination_y = 115;
+	name = "To Cheyenne"
 	},
 /area/f13/tunnel)
 "fP" = (
@@ -202,6 +216,12 @@
 	icon_state = "outerpavementcorner"
 	},
 /area/f13/wasteland)
+"yE" = (
+/obj/effect/landmark/latejoin,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/tunnel)
 "As" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop0"
@@ -32779,7 +32799,7 @@ tt
 (127,1,1) = {"
 Zn
 uY
-uY
+yE
 uY
 uY
 nm
@@ -33036,7 +33056,7 @@ sa
 (128,1,1) = {"
 qa
 uY
-uY
+ay
 uY
 uY
 nm
@@ -33293,7 +33313,7 @@ Cw
 (129,1,1) = {"
 rw
 uY
-uY
+yE
 uY
 uY
 nm
@@ -33802,7 +33822,7 @@ uY
 uY
 uY
 uY
-ef
+fu
 "}
 (131,1,1) = {"
 Pw
