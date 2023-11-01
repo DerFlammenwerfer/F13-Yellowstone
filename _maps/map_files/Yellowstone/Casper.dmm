@@ -18,7 +18,7 @@
 /area/f13/tunnel)
 "ef" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 60;
 	destination_y = 115;
 	name = "To Cheyenne"
@@ -26,7 +26,7 @@
 /area/f13/tunnel)
 "fo" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 199;
 	destination_y = 141;
 	name = "To Buffalo"
@@ -34,7 +34,7 @@
 /area/f13/tunnel)
 "fP" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 115;
 	destination_y = 197;
 	name = "To Bighorn Valley"
@@ -65,7 +65,7 @@
 /area/f13/tunnel)
 "kl" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 115;
 	destination_y = 195;
 	name = "To Bighorn Valley"
@@ -79,7 +79,7 @@
 /area/f13/wasteland)
 "ms" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 141;
 	destination_y = 57;
 	name = "To Harrison"
@@ -120,7 +120,7 @@
 /area/f13/caves)
 "qa" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 197;
 	destination_y = 141;
 	name = "To Buffalo"
@@ -131,15 +131,15 @@
 /area/f13/wasteland)
 "qo" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 195;
 	destination_y = 141;
-	name = s
+	name = "To Buffalo"
 	},
 /area/f13/tunnel)
 "rw" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 198;
 	destination_y = 141;
 	name = "To Buffalo"
@@ -147,7 +147,7 @@
 /area/f13/tunnel)
 "sa" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 58;
 	destination_y = 115;
 	name = "To Cheyenne"
@@ -155,7 +155,7 @@
 /area/f13/tunnel)
 "tt" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 57;
 	destination_y = 115;
 	name = "To Cheyenne"
@@ -166,14 +166,6 @@
 	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/f13/wasteland)
-"uk" = (
-/turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
-	destination_x = 61;
-	destination_y = 115;
-	name = "To Cheyenne"
-	},
-/area/f13/tunnel)
 "uY" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalinnermain0"
@@ -199,7 +191,7 @@
 /area/f13/wasteland)
 "yd" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 115;
 	destination_y = 196;
 	name = "To Bighorn Valley"
@@ -226,7 +218,7 @@
 /area/f13/tunnel)
 "Cw" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 59;
 	destination_y = 115;
 	name = "To Cheyenne"
@@ -252,12 +244,9 @@
 "HF" = (
 /turf/open/indestructible/ground/outside/road,
 /area/f13/tunnel)
-"IT" = (
-/turf/open/indestructible,
-/area/f13/tcoms)
 "Ju" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 141;
 	destination_y = 60;
 	name = "To Harrison"
@@ -276,7 +265,7 @@
 /area/f13/wasteland)
 "Kr" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 141;
 	destination_y = 59;
 	name = "To Harrison"
@@ -284,7 +273,7 @@
 /area/f13/tunnel)
 "KF" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 141;
 	destination_y = 58;
 	name = "To Harrison"
@@ -301,7 +290,7 @@
 /area/f13/tcoms)
 "Ml" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 115;
 	destination_y = 198;
 	name = "To Bighorn Valley"
@@ -319,7 +308,7 @@
 /area/f13/wasteland)
 "OF" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 141;
 	destination_y = 61;
 	name = "To Harrison"
@@ -335,7 +324,9 @@
 	},
 /area/f13/tunnel)
 "Pw" = (
-/turf/closed/indestructible/f13/matrix,
+/turf/closed/indestructible/f13/matrix{
+	name = "Depart Wasteland"
+	},
 /area/f13/tunnel)
 "Px" = (
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -356,7 +347,7 @@
 /area/f13/wasteland)
 "Qp" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 115;
 	destination_y = 199;
 	name = "To Bighorn Valley"
@@ -396,7 +387,7 @@
 /area/f13/wasteland)
 "Zn" = (
 /turf/closed/indestructible/f13/matrix/transition{
-	destination_z = 6;
+	destination_z = 7;
 	destination_x = 196;
 	destination_y = 141;
 	name = "To Buffalo"
@@ -404,11 +395,11 @@
 /area/f13/tunnel)
 
 (1,1,1) = {"
+Qs
 Lx
-Lx
-Lx
-Lx
-Lx
+pB
+pB
+pB
 pB
 pB
 pB
@@ -662,11 +653,11 @@ pB
 "}
 (2,1,1) = {"
 Lx
-IT
-IT
-IT
 Lx
 pB
+YB
+YB
+YB
 YB
 YB
 YB
@@ -918,12 +909,12 @@ YB
 pB
 "}
 (3,1,1) = {"
-Lx
-IT
-Qs
-IT
-Lx
 pB
+pB
+pB
+YB
+YB
+YB
 YB
 YB
 YB
@@ -1175,12 +1166,12 @@ YB
 pB
 "}
 (4,1,1) = {"
-Lx
-IT
-IT
-IT
-Lx
 pB
+YB
+YB
+YB
+YB
+YB
 YB
 YB
 YB
@@ -1432,12 +1423,12 @@ YB
 pB
 "}
 (5,1,1) = {"
-Lx
-Lx
-Lx
-Lx
-Lx
 pB
+YB
+YB
+YB
+YB
+YB
 YB
 YB
 YB
@@ -1690,11 +1681,11 @@ pB
 "}
 (6,1,1) = {"
 pB
-pB
-pB
-pB
-pB
-pB
+YB
+YB
+YB
+YB
+YB
 YB
 YB
 PU
@@ -33811,7 +33802,7 @@ uY
 uY
 uY
 uY
-uk
+ef
 "}
 (131,1,1) = {"
 Pw
