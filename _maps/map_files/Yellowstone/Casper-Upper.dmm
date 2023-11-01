@@ -2,9 +2,6 @@
 "a" = (
 /turf/open/transparent/openspace,
 /area/f13/wasteland)
-"h" = (
-/turf/open/indestructible,
-/area/f13/tcoms)
 "p" = (
 /turf/closed/indestructible/rock,
 /area/f13/caves)
@@ -20,11 +17,11 @@
 /area/f13/tcoms)
 
 (1,1,1) = {"
+r
 Q
-Q
-Q
-Q
-Q
+p
+p
+p
 p
 p
 p
@@ -278,11 +275,11 @@ p
 "}
 (2,1,1) = {"
 Q
-h
-h
-h
 Q
 p
+y
+y
+y
 y
 y
 y
@@ -534,12 +531,12 @@ y
 p
 "}
 (3,1,1) = {"
-Q
-h
-r
-h
-Q
 p
+p
+p
+y
+y
+y
 y
 y
 y
@@ -791,12 +788,12 @@ y
 p
 "}
 (4,1,1) = {"
-Q
-h
-h
-h
-Q
 p
+y
+y
+y
+y
+y
 y
 y
 y
@@ -1048,12 +1045,12 @@ y
 p
 "}
 (5,1,1) = {"
-Q
-Q
-Q
-Q
-Q
 p
+y
+y
+y
+y
+y
 y
 y
 y
@@ -1306,11 +1303,11 @@ p
 "}
 (6,1,1) = {"
 p
-p
-p
-p
-p
-p
+y
+y
+y
+y
+y
 y
 y
 a

@@ -18,7 +18,7 @@
 	// Config actually from the JSON - should default to Box
 	var/map_name = "The Wasteland"
 	var/map_path = "map_files/Yellowstone"
-	var/map_file = list("Dungeons.dmm", "Casper-Below.dmm", "Casper.dmm", "Casper-Upper.dmm", "Bighorn-Buffalo-Cheyenne-Harrison.dmm", "Bighorn-Buffalo-Cheyenne-Harrison-Upper.dmm", "I80-Reservation-RockSprings-Yellowstone.dmm")
+	var/map_file = list("Dungeons.dmm", "Casper-Below.dmm", "Casper.dmm", "Casper-Upper.dmm", "Casper-Upper-2.dmm", "Bighorn-Buffalo-Cheyenne-Harrison.dmm", "Bighorn-Buffalo-Cheyenne-Harrison-Upper.dmm")
 	var/list/added_jobs = list()     //Overrides the "none" faction using job name
 	var/list/removed_jobs = list()   //Removes the "none" faction using job name - can also use #all# (case sensitive)
 
@@ -50,6 +50,15 @@
 					list(
 						ZTRAIT_GRAVITY = 1,
 						ZTRAIT_BASETURF = /turf/open/transparent/openspace,
+						ZTRAIT_UP = 1,
+						ZTRAIT_DOWN = -1,
+						ZTRAIT_NOPARALLAX = 1,
+						ZTRAIT_LINKAGE = CROSSLINKED,
+						ZTRAIT_ABOVE = 1
+						),
+					list(
+						ZTRAIT_GRAVITY = 1,
+						ZTRAIT_BASETURF = /turf/open/transparent/openspace,
 						ZTRAIT_DOWN = -1,
 						ZTRAIT_NOPARALLAX = 1,
 						ZTRAIT_LINKAGE = CROSSLINKED,
@@ -70,13 +79,6 @@
 						ZTRAIT_NOPARALLAX = 1,
 						ZTRAIT_LINKAGE = CROSSLINKED,
 						ZTRAIT_ABOVE = 1
-						),
-					list(
-						ZTRAIT_GRAVITY = 1,
-						ZTRAIT_BASETURF = /turf/open/indestructible/ground/inside/mountain,
-						ZTRAIT_STATION = 1,
-						ZTRAIT_NOPARALLAX = 1,
-						ZTRAIT_LINKAGE = CROSSLINKED
 						)
 					)
 	var/space_ruin_levels = 0

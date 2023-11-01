@@ -6,9 +6,9 @@
 		"Casper-Below.dmm",
 		"Casper.dmm",
 		"Casper-Upper.dmm",
+		"Casper-Upper-2.dmm",
 		"Bighorn-Buffalo-Cheyenne-Harrison.dmm",
-		"Bighorn-Buffalo-Cheyenne-Harrison-Upper.dmm",
-		"I80-Reservation-RockSprings-Yellowstone.dmm"
+		"Bighorn-Buffalo-Cheyenne-Harrison-Upper.dmm"
 	],
 	"station_ruin_budget":0,
 	"space_ruin_levels":0,
@@ -49,11 +49,21 @@
 		{
 			"Gravity": true,
 			"Baseturf": "/turf/open/transparent/openspace",
+			"Up": 1,
 			"Down": -1,
 			"No Parallax": true,
 			"Linkage" : "Cross",
 			"Above": true,
 			"Name": "Upper Casper"
+		},
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/transparent/openspace",
+			"Down": -1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Above": true,
+			"Name": "Upper Casper 2"
 		},
 		{
 			"Gravity": true,
@@ -73,15 +83,6 @@
 			"Linkage" : "Cross",
 			"Above": true,
 			"Name": "Upper Major Zone"
-		},
-		{
-			"Gravity": true,
-			"Baseturf": "/turf/open/indestructible/ground/inside/mountain",
-			"Station": 1,
-			"Surface": true,
-			"No Parallax": true,
-			"Linkage" : "Cross",
-			"Name": "Minor Zone"
 		}
 	],
 	"minetype": "none"

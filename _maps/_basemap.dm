@@ -8,9 +8,9 @@
 		#include "map_files\Yellowstone\Casper-Below.dmm",
 		#include "map_files\Yellowstone\Casper.dmm",
 		#include "map_files\Yellowstone\Casper-Upper.dmm",
+		#include "map_files\Yellowstone\Casper-Upper-2.dmm",
 		#include "map_files\Yellowstone\Bighorn-Buffalo-Cheyenne-Harrison.dmm",
-		#include "map_files\Yellowstone\Bighorn-Buffalo-Cheyenne-Harrison-Upper.dmm",
-		#include "map_files\Yellowstone\I80-Reservation-RockSprings-Yellowstone.dmm"
+		#include "map_files\Yellowstone\Bighorn-Buffalo-Cheyenne-Harrison-Upper.dmm"
 		#ifdef TRAVISBUILDING
 			#include "templates.dm"
 		#endif
