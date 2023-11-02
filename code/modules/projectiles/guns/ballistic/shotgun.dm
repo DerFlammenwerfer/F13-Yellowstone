@@ -410,7 +410,7 @@
 	fire_sound = 'sound/f13weapons/riot_shotgun.ogg'
 
 //Boss' unique riot shotgun.
-/obj/item/gun/ballistic/riot/boss
+/obj/item/gun/ballistic/shotgun/riot/boss
 	name = "Left Hand"
 	desc = "A compact riot shotgun with a large ammo drum and semi-automatic fire, designed to fight in close quarters. \
 	This one has engravings, dedicated to a 'Captain' of some sort. Odd."
