@@ -1951,7 +1951,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
-/obj/item/gun/ballistic/shotgun/riot,
+/obj/item/gun/ballistic/shotgun/automatic/riot,
 /obj/item/gun/ballistic/revolver/caravan_shotgun,
 /obj/item/gun/ballistic/revolver/grenadelauncher,
 /obj/item/gun/ballistic/revolver/hobo/pepperbox,

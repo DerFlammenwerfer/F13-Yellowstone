@@ -1350,7 +1350,7 @@
 /obj/effect/spawner/bundle/f13/riotshotgun
 	name = "riot shotgun and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/shotgun/riot,
+				/obj/item/gun/ballistic/shotgun/automatic/riot,
 				/obj/item/ammo_box/magazine/d12g/
 				)
 
@@ -1413,7 +1413,7 @@
 /obj/effect/spawner/bundle/f13/riotshotgun
 	name = "riot shotgun and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/shotgun/riot,
+				/obj/item/gun/ballistic/shotgun/automatic/riot,
 				/obj/item/ammo_box/magazine/d12g/
 	)
 
