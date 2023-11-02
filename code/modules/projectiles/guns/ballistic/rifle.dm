@@ -110,7 +110,7 @@
 
 
 //Cowboy Repeater						Keywords: .357, Lever action, 12 round internal, Long barrel
-/obj/item/gun/ballistic/rifle/repeater/cowboy
+/obj/item/gun/ballistic/rifle/cowboy
 	name = "cowboy repeater"
 	desc = "A lever action rifle chambered in .357 Magnum. Smells vaguely of whiskey and cigarettes."
 	icon_state = "cowboyrepeater"
@@ -134,7 +134,7 @@
 
 
 //Brush gun								Keywords: .45-70, Lever action, 10 round internal, Long barrel
-/obj/item/gun/ballistic/rifle/repeater/brush
+/obj/item/gun/ballistic/rifle/brush
 	name = "brush gun"
 	desc = "A short lever action rifle chambered in the heavy 45-70 round. Issued to NCR Veteran Rangers in the absence of heavier weaponry."
 	icon_state = "brushgun"
@@ -147,7 +147,7 @@
 	extra_penetration = 0.12
 
 //Medicine Stick						Keywords: .45-70, Lever action, 8 round internal, Long barrel, Unique
-/obj/item/gun/ballistic/rifle/repeater/brush/medistick
+/obj/item/gun/ballistic/rifle/brush/medistick
 	name = "medicine stick"
 	desc = "A custom-made Gun Runners brush gun with a shorter tube, featuring a sturdier frame, longer barrel, reinforced rifling, padded lever and a muzzle device. A medicine wheel is attached to one side of the stock along with two feathers."
 	icon_state = "medistick"

@@ -191,11 +191,11 @@
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_HEAVY
 	mag_type = /obj/item/ammo_box/magazine/autopipe
-	force = 20
+	force = 15
 	is_automatic = TRUE
 	automatic = 1
-	autofire_shot_delay = 1.75
-	spread = 15
+	autofire_shot_delay = 3 //Boowomp - Nerfed due to spam
+	spread = 25 //Nerfed due to spam.
 	fire_sound = 'sound/weapons/Gunshot.ogg'
 
 /obj/item/gun/ballistic/automatic/autopipe/update_icon_state()

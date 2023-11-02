@@ -227,7 +227,7 @@
 		/obj/item/gun/ballistic/automatic/m1carbine/compact = 2,
 		/obj/item/gun/ballistic/automatic/pistol/automag = 2,
 		/obj/effect/spawner/bundle/f13/mp5 = 1,
-		/obj/item/gun/ballistic/shotgun/automatic/combat/auto5 = 2,
+		/obj/item/gun/ballistic/shotgun/auto5 = 2,
 		/obj/effect/spawner/bundle/f13/riotshotgun = 2,
 		/obj/item/shield/riot = 8,
 		/obj/item/melee/classic_baton = 5,

@@ -1034,7 +1034,7 @@
 /obj/effect/spawner/bundle/f13/shotgunlever
 	name = "lever action shotgun and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever,
+				/obj/item/gun/ballistic/shotgun/shotgunlever,
 				/obj/item/ammo_box/shotgun/buck
 	)
 
@@ -1077,7 +1077,7 @@
 /obj/effect/spawner/bundle/f13/cowboy
 	name = "cowboy repeater and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/rifle/repeater/cowboy,
+				/obj/item/gun/ballistic/rifle/cowboy,
 				/obj/item/ammo_box/tube/a357/
 				)
 
@@ -1174,7 +1174,7 @@
 /obj/effect/spawner/bundle/f13/guns/auto5
 	name = "auto-5 shotgun and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/shotgun/automatic/combat/auto5,
+				/obj/item/gun/ballistic/shotgun/auto5,
 				/obj/item/ammo_box/shotgun/buck,
 				)
 
@@ -1244,14 +1244,14 @@
 /obj/effect/spawner/bundle/f13/neostead
 	name = "Neostead 2000 shotgun and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/shotgun/automatic/combat/neostead_noalt,
+				/obj/item/gun/ballistic/shotgun/neostead_noalt,
 				/obj/item/ammo_box/shotgun/flechette
 	)
 
 /obj/effect/spawner/bundle/f13/auto5
 	name = "Auto 5 shotgun and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/shotgun/automatic/combat/auto5,
+				/obj/item/gun/ballistic/shotgun/auto5,
 				/obj/item/ammo_box/shotgun/buck,
 				/obj/item/ammo_box/shotgun/slug
 	)
@@ -1322,7 +1322,7 @@
 /obj/effect/spawner/bundle/f13/brushgun
 	name = "brush gun and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/rifle/repeater/brush,
+				/obj/item/gun/ballistic/rifle/brush,
 				/obj/item/ammo_box/tube/c4570/
 				)
 
@@ -1350,7 +1350,7 @@
 /obj/effect/spawner/bundle/f13/riotshotgun
 	name = "riot shotgun and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/automatic/shotgun/riot,
+				/obj/item/gun/ballistic/shotgun/riot,
 				/obj/item/ammo_box/magazine/d12g/
 				)
 
@@ -1413,7 +1413,7 @@
 /obj/effect/spawner/bundle/f13/riotshotgun
 	name = "riot shotgun and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/automatic/shotgun/riot,
+				/obj/item/gun/ballistic/shotgun/riot,
 				/obj/item/ammo_box/magazine/d12g/
 	)
 
@@ -1518,7 +1518,7 @@
 /obj/effect/spawner/bundle/f13/medicinestick
 	name = "medicine stick and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/rifle/repeater/brush/medistick,
+				/obj/item/gun/ballistic/rifle/brush/medistick,
 				/obj/item/ammo_box/tube/c4570
 	)
 

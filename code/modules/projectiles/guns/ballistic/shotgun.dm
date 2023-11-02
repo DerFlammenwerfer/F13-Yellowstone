@@ -287,7 +287,7 @@
 		icon_state = "[initial(icon_state)]"
 
 //Browning Auto-5						Keywords: Shotgun, Semi-auto, 4 rounds internal
-/obj/item/gun/ballistic/shotgun/automatic/combat/auto5
+/obj/item/gun/ballistic/shotgun/auto5
 	name = "Browning Auto-5"
 	desc = "A semi automatic shotgun with a four round tube."
 	fire_delay = 2.7
@@ -299,7 +299,7 @@
 
 
 //Lever action shotgun					Keywords: Shotgun, Lever-action, 5 round magazine, Pistol grip
-/obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever
+/obj/item/gun/ballistic/shotgun/shotgunlever
 	name = "lever action shotgun"
 	desc = "A pistol grip lever action shotgun with a five-shell capacity underneath plus one in chamber."
 	icon_state = "shotgunlever"
@@ -319,7 +319,7 @@
 
 
 //Neostead 2000							Keywords: BOS, Shotgun, Semi-auto, 12 rounds internal
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead
+/obj/item/gun/ballistic/shotgun/neostead
 	name = "Neostead 2000"
 	desc = "An advanced shotgun with two separate magazine tubes, allowing you to quickly toggle between ammo types."
 	icon_state = "neostead"
@@ -331,21 +331,21 @@
 	var/toggled = FALSE
 	var/obj/item/ammo_box/magazine/internal/shot/alternate_magazine
 
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead/examine(mob/user)
+/obj/item/gun/ballistic/shotgun/neostead/examine(mob/user)
 	. = ..()
 	. += "<span class='notice'>Alt-click to switch tubes.</span>"
 
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead/Initialize()
+/obj/item/gun/ballistic/shotgun/neostead/Initialize()
 	. = ..()
 	if (!alternate_magazine)
 		alternate_magazine = new mag_type(src)
 
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead/attack_self(mob/living/user)
+/obj/item/gun/ballistic/shotgun/neostead/attack_self(mob/living/user)
 	. = ..()
 	if(!magazine.contents.len)
 		toggle_tube(user)
 
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead/proc/toggle_tube(mob/living/user)
+/obj/item/gun/ballistic/shotgun/neostead/proc/toggle_tube(mob/living/user)
 	var/current_mag = magazine
 	var/alt_mag = alternate_magazine
 	magazine = alt_mag
@@ -356,13 +356,13 @@
 	else
 		to_chat(user, "You switch to tube A.")
 
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead/AltClick(mob/living/user)
+/obj/item/gun/ballistic/shotgun/neostead/AltClick(mob/living/user)
 	if(!user.canUseTopic(src, BE_CLOSE, ismonkey(user)))
 		return
 	toggle_tube(user)
 
 //Neostead 2000 NO TUBE SWAP							Keywords: Khan, Shotgun, Semi-auto, 12 rounds internal
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead_noalt
+/obj/item/gun/ballistic/shotgun/neostead_noalt
 	name = "Neostead 2000"
 	desc = "An advanced shotgun with two separate magazine tubes."
 	icon_state = "neostead"
@@ -372,7 +372,7 @@
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/tube_noalt
 	force = 10
 
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead_noalt/khan
+/obj/item/gun/ballistic/shotgun/neostead_noalt/khan
 	name = "Cold Water"
 	desc = "A personalized Neostead shotgun belonging to a Senior Enforce of the Great Khans."
 	fire_delay = 3.5
@@ -394,7 +394,7 @@
 
 
 //Riot shotgun							Keywords: Shotgun, Semi-auto, 12 round magazine, Pistol grip
-/obj/item/gun/ballistic/automatic/shotgun/riot
+/obj/item/gun/ballistic/shotgun/riot
 	name = "Riot shotgun"
 	desc = "A compact riot shotgun with a large ammo drum and semi-automatic fire, designed to fight in close quarters."
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
@@ -407,12 +407,10 @@
 	fire_delay = 3
 	burst_size = 1
 	recoil = 1.1
-	automatic_burst_overlay = FALSE
-	semi_auto = TRUE
 	fire_sound = 'sound/f13weapons/riot_shotgun.ogg'
 
 //Boss' unique riot shotgun.
-/obj/item/gun/ballistic/automatic/shotgun/riot/boss
+/obj/item/gun/ballistic/riot/boss
 	name = "Left Hand"
 	desc = "A compact riot shotgun with a large ammo drum and semi-automatic fire, designed to fight in close quarters. \
 	This one has engravings, dedicated to a 'Captain' of some sort. Odd."

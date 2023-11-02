@@ -360,7 +360,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 /datum/outfit/loadout/decvetsnake
 	name = "Mark of the Snake"
 	head = /obj/item/clothing/head/helmet/f13/legion/vet/decan
-	suit_store = /obj/item/gun/ballistic/rifle/repeater/brush
+	suit_store = /obj/item/gun/ballistic/rifle/brush
 	backpack_contents = list(
 		/obj/item/melee/powered/ripper = 1,
 		/obj/item/ammo_box/tube/c4570 = 3,
@@ -459,7 +459,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 		/obj/item/ammo_box/m44 = 3,
 		/obj/item/restraints/legcuffs/bola = 1,
 		/obj/item/melee/onehanded/knife/throwing = 2,
-		/obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever = 1
+		/obj/item/gun/ballistic/shotgun/shotgunlever = 1
 		)
 
 /datum/outfit/loadout/decprimrear
@@ -622,7 +622,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 /datum/outfit/loadout/vexbear
 	name = "Mountain Bear"
 	head = /obj/item/clothing/head/helmet/f13/legion/vet/combvexil
-	suit_store = /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever
+	suit_store = /obj/item/gun/ballistic/shotgun/shotgunlever
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/patch/healingpowder/berserker = 2,
 		/obj/item/melee/powered/ripper = 1,
@@ -705,7 +705,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 
 /datum/outfit/loadout/expambusher
 	name = "Ambusher"
-	suit_store = /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever
+	suit_store = /obj/item/gun/ballistic/shotgun/shotgunlever
 	glasses = /obj/item/clothing/glasses/sunglasses/big
 	backpack_contents = list(
 		/obj/item/bottlecap_mine = 1,
@@ -809,7 +809,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 
 /datum/outfit/loadout/vetberserker
 	name = "Berserker"
-	suit_store = /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever
+	suit_store = /obj/item/gun/ballistic/shotgun/shotgunlever
 	backpack_contents = list(
 		/obj/item/ammo_box/shotgun/buck = 2,
 		/obj/item/twohanded/spear/lance = 1,
@@ -892,7 +892,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 
 /datum/outfit/loadout/primerifle
 	name = "Gunner"
-	suit_store = /obj/item/gun/ballistic/rifle/repeater/cowboy
+	suit_store = /obj/item/gun/ballistic/rifle/cowboy
 	backpack_contents = list(
 		/obj/item/ammo_box/a357 = 3,
 		/obj/item/grenade/homemade/firebomb = 2,

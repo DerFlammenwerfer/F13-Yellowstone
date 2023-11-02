@@ -1077,7 +1077,7 @@
 
 /datum/crafting_recipe/neostead
 	name = "Neostead 2000"
-	result = /obj/item/gun/ballistic/shotgun/automatic/combat/neostead_noalt
+	result = /obj/item/gun/ballistic/shotgun/neostead_noalt
 	reqs = list(/obj/item/stack/sheet/metal = 10,
 				/obj/item/advanced_crafting_components/assembly = 1,
 				/obj/item/advanced_crafting_components/alloys = 1,
@@ -1147,7 +1147,7 @@
 //lever action shotgun
 /datum/crafting_recipe/lever_action
 	name = "Lever Action Shotgun"
-	result = /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever
+	result = /obj/item/gun/ballistic/shotgun/shotgunlever
 	reqs = list(/obj/item/stack/sheet/metal = 5,
 				/obj/item/advanced_crafting_components/receiver = 1,
 				/obj/item/stack/crafting/metalparts = 3,
@@ -1269,7 +1269,7 @@
 //brush gun
 /datum/crafting_recipe/brush
 	name = "Brush Gun"
-	result = /obj/item/gun/ballistic/rifle/repeater/brush
+	result = /obj/item/gun/ballistic/rifle/brush
 	reqs = list(/obj/item/stack/sheet/metal = 10,
 				/obj/item/advanced_crafting_components/assembly = 1,
 				/obj/item/advanced_crafting_components/receiver = 1,
@@ -1300,7 +1300,7 @@
 //Riot shotgun
 /datum/crafting_recipe/riotshotgun
 	name = "Riot Shotgun"
-	result = /obj/item/gun/ballistic/automatic/shotgun/riot
+	result = /obj/item/gun/ballistic/shotgun/riot
 	reqs = list(/obj/item/stack/sheet/metal = 5,
 				/obj/item/advanced_crafting_components/alloys = 1,
 				/obj/item/advanced_crafting_components/receiver = 1,

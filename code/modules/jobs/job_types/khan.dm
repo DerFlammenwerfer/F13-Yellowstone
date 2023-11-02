@@ -389,7 +389,7 @@
 /datum/outfit/loadout/senior
 	name = "True Enforcer"
 	belt = /obj/item/storage/belt/bandolier
-	r_hand = /obj/item/gun/ballistic/shotgun/automatic/combat/neostead_noalt/khan
+	r_hand = /obj/item/gun/ballistic/shotgun/neostead_noalt/khan
 	suit = /obj/item/clothing/suit/toggle/labcoat/f13/khan_jacket/coat
 	head = /obj/item/clothing/head/helmet/f13/khan/fullhelm
 	backpack_contents = list(

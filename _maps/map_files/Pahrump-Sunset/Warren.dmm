@@ -7137,7 +7137,7 @@
 /obj/item/ammo_box/magazine/d12g,
 /obj/item/ammo_box/magazine/d12g,
 /obj/item/ammo_box/magazine/d12g,
-/obj/item/gun/ballistic/automatic/shotgun/riot/boss,
+/obj/item/gun/ballistic/shotgun/riot/boss,
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
 "gHK" = (

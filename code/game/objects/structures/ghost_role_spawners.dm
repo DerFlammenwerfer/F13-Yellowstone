@@ -773,7 +773,7 @@
 	flavour_text = "True to Caesar!"
 	assignedrole = "Prime Legionnaire"
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13legionary
-	suit_store = /obj/item/gun/ballistic/rifle/repeater/cowboy
+	suit_store = /obj/item/gun/ballistic/rifle/cowboy
 	backpack_contents = list(
 		/obj/item/ammo_box/a357 = 3,
 		/obj/item/melee/onehanded/machete = 1,
