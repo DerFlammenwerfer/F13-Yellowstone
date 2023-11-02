@@ -394,7 +394,7 @@
 
 
 //Riot shotgun							Keywords: Shotgun, Semi-auto, 12 round magazine, Pistol grip
-/obj/item/gun/ballistic/shotgun/riot
+/obj/item/gun/ballistic/shotgun/automatic/riot
 	name = "Riot shotgun"
 	desc = "A compact riot shotgun with a large ammo drum and semi-automatic fire, designed to fight in close quarters."
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
@@ -410,7 +410,7 @@
 	fire_sound = 'sound/f13weapons/riot_shotgun.ogg'
 
 //Boss' unique riot shotgun.
-/obj/item/gun/ballistic/shotgun/riot/boss
+/obj/item/gun/ballistic/shotgun/automatic/riot/boss
 	name = "Left Hand"
 	desc = "A compact riot shotgun with a large ammo drum and semi-automatic fire, designed to fight in close quarters. \
 	This one has engravings, dedicated to a 'Captain' of some sort. Odd."
