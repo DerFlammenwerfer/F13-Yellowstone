@@ -1120,7 +1120,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/stack/crafting/armor_plate = 4,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1,
 		/obj/item/grenade/f13/frag = 1,
-		/obj/item/storage/box/ration/menu_eight = 1,
+		/obj/item/storage/box/ration/menu_six = 1,
 		)
 
 /datum/outfit/loadout/trooperrifleman
@@ -1132,11 +1132,12 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 
 /datum/outfit/loadout/trooperfiresupport
 	name = "Shotgunner"
-	suit_store = /obj/item/gun/ballistic/shotgun/hunting
+	suit_store = /obj/item/gun/ballistic/shotgun/trench
 	backpack_contents = list(
 		/obj/item/ammo_box/shotgun/buck = 2,
 		/obj/item/shovel/trench = 1,
-		/obj/item/stack/sheet/mineral/sandbags = 10,
+		/obj/item/stack/sheet/mineral/sandbags = 30,
+		/obj/item/storage/box/mre/menu3 = 1,
 		)
 
 
