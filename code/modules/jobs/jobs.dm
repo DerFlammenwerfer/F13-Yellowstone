@@ -49,29 +49,25 @@ GLOBAL_LIST_INIT(nonhuman_positions, list(
 	))
 
 GLOBAL_LIST_INIT(command_positions, list(
-	"Baron",
-	"Castellan",
-	"Knight-Commander",
-	"Keeper",
+	"Khan of Khans",
+	"Novis Rex",
+	"Enclave Colonel",
+	"Brotherhood High Elder",
+	"Savage Behemoth",
 
+	"Brotherhood Elder",
+	"Khan Nobility",
+	"Enclave Major",
+	"Savage Overlord,"
+	"Novis Legate",
+
+	"Sentinel",
 	"NCR Captain",
-	"NCR Veteran Ranger",
-
-	"Legion Centurion",
-
-	"Sheriff",
-	"Sierra Representative",
-	"Mayor",
-
-	"Enclave Lieutenant",
-
+	"Novis Centurion",
+	"Enclave Captain",
 	"Followers Administrator",
-
-	"Khan Senior Enforcer",
-
+	"Khan Chieftain",
 	"Tribal Shaman",
-
-	"Raider Captain",
 
 //	"Noyan",
 //	"Steward",
@@ -80,149 +76,117 @@ GLOBAL_LIST_INIT(command_positions, list(
 GLOBAL_LIST_INIT(silicon_whitelist_positions, list(
 "Mr. Handy"))
 //Whitelisted positions list FO13 anything that shows up here requires that the user have an entry in the 'role_whitelist' table of id,ckey,"faction"
-//NCR Assistant and Legion Camp Follower re-added to whitelisting.  BoS Initiate removed from whitelist.
+//NCR Assistant and Novis Camp Follower re-added to whitelisting.  BoS Initiate removed from whitelist.
 
 GLOBAL_LIST_INIT(faction_whitelist_positions, list(
-"Baron",
-"Castellan",
-"Knight-Commander",
-"Keeper",
-"Paladin Marshal",
-"Paladin",
-"Knight-Captain",
-"Knight",
-"Librarian",
-"Scribe",
-"Initiate",
-"BoS Off-Duty",
-"Inquisitorial Acolyte",
-
-"Legion Centurion",
-"Legion Venator",
-"Legion Explorer",
-"Legion Slavemaster",
-"Legion Veteran Decanus",
-"Veteran Legionnaire",
-"Legion Prime Decanus",
-"Prime Legionnaire",
-"Legion Recruit Decanus",
-"Legion Scout",
-"Legion Auxilia",
-"Legion Slave",
-
-"Shopkeeper",
-"Sierra Representative",
-"Mercenary",
-
-"Enclave Lieutenant",
-"Enclave Gunnery Sergeant",
-"Enclave Sergeant",
-"Enclave Internal Security",
-"Enclave Specialist",
-"Enclave Scientist",
-"Enclave Private",
-"Enclave Pilot Officer",
-"Enclave Bunker Duty",
-"Synthetic",
-
-"Noyan",
-"Steward",
-"Kheshig",
-"Khorchin",
-"Kipchak",
-
-"Raider",
-"Outsider",
-"Raider Captain",
-
-"Followers Administrator",
-"Followers Doctor",
-"Followers Scholar",
-"Followers Robot",
-
-"Cyborg",
+//Headmin Only
+	"Khan of Khans",//Reserved for Host
+	"Novis Rex",
+	"Enclave Colonel",
+	"Brotherhood High Elder",
+	"Savage Behemoth",
+//Admin Only
+	"Brotherhood Elder",
+	"Khan Nobility",
+	"Enclave Major",
+	"Savage Nightkin Overlord,"
+	"Novis Legate",
+	"NCR Major",
+//Leadership Only
+	"Sentinel",
+	"NCR Captain",
+	"Novis Centurion",
+	"Enclave Captain",
+	"Followers Administrator",
+	"Khan Chieftain",
+	"Tribal Shaman",
 ))
 
 GLOBAL_LIST_INIT(brotherhood_positions, list(
-	"Baron",
-	"Castellan",
-	"Knight-Commander",
-	"Keeper",
-	"Paladin Marshal",
+	"Brotherhood High Elder",
+	"Brotherhood Elder",
+
+	"Sentinel",
+
+	"Star Paladin",
 	"Paladin",
 	"Knight-Captain",
+	"Knight-Sergeant",
 	"Knight",
-	"Librarian",
+
+	"Proctor",
+	"Senior Scribe",
 	"Scribe",
-	"BoS Off-Duty",
 	"Initiate",
-	"Inquisitorial Acolyte",
+	"BoS Off-Duty",
+	"Confrere",
 ))
 
 GLOBAL_LIST_INIT(bighorn_positions, list(
-	"Mayor",
-	"Secretary",
-	"Sheriff",
-	"Deputy",
-	"Sierra Representative",
-	"Shopkeeper",
-	"Mercenary",
-	"Barkeep",
-	"Preacher",
-	"Citizen",
+	"Bighorn Sheriff",
+	"Bighorn Deputy",
+	"Bighorn Caravaneer",
+	"Khan Tavernkeeper",
+	"Bighorn Chaplain",
+	"Bighorn Resident",
 
 ))
 
 GLOBAL_LIST_INIT(legion_command_positions, list(
-	"Legate",
-	"Legion Orator",
-	"Legion Centurion",
-	"Legion Veteran Decanus",
+	"Novis Rex",
+	"Novis Legate",
+
+	"Novis Centurion",
+	"Novis Decanus"
+	"Novis Veteran Decanus",
 ))
 
 GLOBAL_LIST_INIT(legion_positions, list(
-	"Legion Orator",
-	"Legion Centurion",
-	"Legion Venator",
-	"Legion Veteran Decanus",
-	"Legion Prime Decanus",
-	"Legion Recruit Decanus",
-	"Legion Vexillarius",
-	"Legion Explorer",
-	"Legion Scout",
-	"Veteran Legionnaire",
-	"Prime Legionnaire",
-	"Recruit Legionnaire",
-	"Legion Forgemaster",
-	"Legion Immune",
-	"Legion Auxilia",
-	"Legion Slave",
-	"Legion Slavemaster"
-))
+	"Novis Rex",
+	"Novis Legate",
 
-GLOBAL_LIST_INIT(ncr_rangervet_positions, list(
-	"NCR Veteran Ranger",
-))
+	"Novis Centurion",
+
+	"Novis Veteran Decanus",
+	"Novis Decanus",
+	"Novis Vexillarius",
+
+	"Novis Libritor",
+	"Novis Veteran Legionary",
+	"Novis Prime Legionary",
+	"Novis Auxilliary",
+	"Novis Recruit Legionary",
+	"Novis Immune",
+
+	"Novis Priest of Mars",
+	"Novis Priestess of Pax",
+	"Novis Orator",
+	"Novis Peregrine",
+	"Novis Citizen",
+	"Novis Slave",
 
 GLOBAL_LIST_INIT(ncr_positions, list(
+	"NCR Major",
+
 	"NCR Captain",
 	"NCR Lieutenant",
-	"NCR Veteran Ranger",
-	"NCR Representative",
+
 	"NCR Ranger",
-	"NCR Sergeant First Class",
-	"NCR Heavy Trooper",
-	"NCR Military Police",
-	"NCR Senior Enlisted Advisor",
+	"NCR 1st Recon",
+
 	"NCR Sergeant",
 	"NCR Corporal",
+	"NCR Support Gunner",
 	"NCR Combat Medic",
 	"NCR Combat Engineer",
 	"NCR Trooper",
 	"NCR Conscript",
-	"NCR Medical Officer",
-	"NCR Logistics Officer",
 	"NCR Rear Echelon",
+
+	"NCR Medical Officer",
+	"NCR Caravaneer",
+	"NCR Caravan Guard",
+	"NCR Ambassador",
 ))
 
 GLOBAL_LIST_INIT(vault_positions, list(
@@ -235,55 +199,84 @@ GLOBAL_LIST_INIT(wasteland_positions, list(
 ))
 
 GLOBAL_LIST_INIT(tribal_positions, list(
-	"Tribal",
-	"Tribal Hunter",
-	"Tribal Gatherer",
-	"Tribal Shaman",
+	"Wind River Chieftain",
+	"Wind River Brave",
+	"Wind River Shaman",
+	"Wind River Villager",
 ))
 
 GLOBAL_LIST_INIT(outlaw_positions, list(
+	"Outlaw",
 	"Raider",
-	"Outsider",
 	"Raider Captain",
 ))
 
-/*
-GLOBAL_LIST_INIT(khan_positions, list(
-	"Noyan",
-	"Steward",
-	"Kheshig",
-	"Khorchin",
-	"Kipchak",
-	"Mangudai",
+
+GLOBAL_LIST_INIT(savages_positions, list(
+	"Savage Behemoth",
+	"Savage Nightkin Overlord",
+
+	"Savage Overlord",
+
+	"Savage Nightkin Master",
+	"Savage Nightkin Jailor",
+	"Savage Nightkin Manhunter",
+	"Savage Nightkin",
+
+	"Savage Master",
+	"Savage Brute",
+	"Savage Mutant",
+
+	"Savage Sawdoc",
+	"Savage Man-Servant",
+	"Savage Prisoner",
+
 ))
-*/
+
 GLOBAL_LIST_INIT(khan_positions, list(
-	"Khan Senior Enforcer",
+	"Khan of Khans",
+	"Khan General",
+
+	"Khan Chieftain",
+	"Khan Steward",
+
+	"Khan Cavalry"
+	"Khan Chief Enforcer",
 	"Khan Enforcer",
-	"Khan Chemist",
-	"Khan Smith",
-	"Khan Courtesan",
+	"Khan Sergeant",
+	"Khan Soldier",
+	"Khan Muscle",
+
+	"Khan Scholar",
+	"Khan Quartermaster",
+	"Khan Merchant"
+	"Khan Musician",
 ))
 
 GLOBAL_LIST_INIT(enclave_positions, list(
+	"Enclave Captain",
 	"Enclave Lieutenant",
-	"Enclave Platoon Sergeant",
 	"Enclave Sergeant",
-	"Enclave Internal Security",
+	"Enclave Armored Infantry",
 	"Enclave Specialist",
-	"Enclave Scientist",
-	"Enclave Pilot Officer",
+	"Enclave Regular",
 	"Enclave Private",
-	"Enclave Bunker Duty",
-	"Synthetic",
+
+	"Enclave Medical Officer"
+	"Enclave Scientist",
+	"Enclave Off Duty",
+	"Enclave Vault Dweller",
+	"Enclave Robot",
 ))
 
 GLOBAL_LIST_INIT(security_positions, list(
+	"Enclave Robot",
+	"Followers Robot",
 	"Vault-tec Security",
 	"Officer",
 ))
 GLOBAL_LIST_INIT(silicon_positions, list(
-	"Mr. Handy",
+	"Wandering Robot",
 ))
 
 GLOBAL_LIST_INIT(followers_positions, list(
@@ -333,9 +326,9 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 	EXP_TYPE_KHAN = list("titles" = khan_positions),
 	EXP_TYPE_FOLLOWERS = list("titles" = followers_positions),
 	EXP_TYPE_ENCLAVE = list("titles" = enclave_positions),
-	EXP_TYPE_RANGER = list("titles" = list("NCR Veteran Ranger","NCR Ranger")),
+	EXP_TYPE_RANGER = list("titles" = list("NCR Ranger")),
 	EXP_TYPE_SCRIBE = list("titles" = list("Scribe")),
-	EXP_TYPE_DECANUS = list("titles" = list("Legion Decanus")),
+	EXP_TYPE_DECANUS = list("titles" = list("Novis Decanus")),
 
 	EXP_TYPE_FOLLOWERSCOMMAND = list("titles" = list("Followers Administrator")),
 	EXP_TYPE_NCRCOMMAND = list("titles" = list("NCR Lieutenant","NCR Sergeant First Class","NCR Captain", "NCR Veteran Ranger"))

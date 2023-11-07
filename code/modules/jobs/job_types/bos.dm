@@ -89,7 +89,7 @@ Elder
 	backpack_contents = list(
 		/obj/item/melee/onehanded/knife/hunting = 1,
 		/obj/item/stock_parts/cell/ammo/ec = 2,
-		
+
 	)
 
 /*
@@ -97,7 +97,7 @@ Head Paladin
 */
 
 /datum/job/bos/f13sentinel
-	title = "Star Paladin"
+	title = "Sentinel"
 	flag = F13SENTINEL
 	head_announce = list("Security")
 	total_positions = 1
@@ -173,7 +173,7 @@ Head Paladin
 /datum/outfit/loadout/sentmelee
 	name = "Melee Star Paladin"
 	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/pistol/pistol14 = 1, 
+		/obj/item/gun/ballistic/automatic/pistol/pistol14 = 1,
 		/obj/item/ammo_box/magazine/m14mm = 3,
 		/obj/item/twohanded/inquis_spear = 1,
 	)
@@ -330,7 +330,7 @@ Star Paladin
 */
 
 /datum/job/bos/f13seniorpaladin
-	title = "Paladin Commander"
+	title = "Star Paladin"
 	flag = F13SENIORPALADIN
 	total_positions = 1
 	spawn_positions = 1
@@ -340,7 +340,7 @@ Star Paladin
 	supervisors = "the Head Paladin"
 	selection_color = "#95a5a6"
 
-	exp_requirements = 0 
+	exp_requirements = 0
 	exp_type = EXP_TYPE_BROTHERHOOD
 
 	loadout_options = list(

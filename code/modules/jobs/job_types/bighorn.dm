@@ -72,14 +72,15 @@ Mayor
 		/obj/item/pen/fountain/captain = 1,
 		/obj/item/storage/bag/money/small/mayor = 1,)//Cash for payouts. Incredible amount, seeing as next to the Banker, he's the closest thing to a treasury keeper.
 /*--------------------------------------------------------------*/
+*/
 /datum/job/bighorn/f13sheriff
 	title = "Sheriff"
 	flag = F13SHERIFF
-	department_flag = DEP_BIGHORN
+	department_flag = KHAN
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the mayor"
-	description = "As the chief law enforcer of the Town, your job is to keep the peace, settle local disputes, and keep your townsfolk safe and alive. Unfortunately, with the NCR and Legion closing in on the region, the Town is caught between a rock and a hard place, as with the war brings with it unsavory elements like the Khans and Outlaws. Sometimes the people you handle inside the town will be alive in cuffs, or dead on the street. Other times, they'll escape the limits of the town, to which you can put a bounty on their head for their capture, or have your deputies capture them. However, you must remember these three critical things: never leave the town undefended, keep the townsfolk alive and safe, and most importantly - keep your hand on your gun and don't you trust anyone."
+	supervisors = "the Noyan and the Five Laws."
+	description = "As the chief law enforcer of Bighorn, your job is to keep the peace, settle local disputes, and keep your townsfolk safe and alive. While you are not necessarily a Khan yourself, you are nevertheless elected by the town to enforce the Five Laws and hold authority over the Kharuul. Sometimes the people you handle inside the town will be alive in cuffs, or dead on the street. Other times, they'll escape the limits of the town, to which you can put a bounty on their head for their capture, or hire some Muscle capture them. However, you must remember these three critical things: never leave the town undefended, keep the townsfolk alive and safe. "
 	selection_color = "#d7b088"
 	exp_requirements = 0
 	outfit = /datum/outfit/job/bighorn/f13sheriff
@@ -123,6 +124,7 @@ Mayor
 	H.AddSpell(new /obj/effect/proc_holder/spell/terrifying_presence)
 
 /*--------------------------------------------------------------*/
+
 /datum/job/bighorn/f13deputy
 	title = "Deputy"
 	flag = F13DEPUTY
@@ -166,7 +168,7 @@ Mayor
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
 /*--------------------------------------------------------------*/
-
+/*
 /datum/job/bighorn/shoprep
 	title = "Sierra Representative"
 	flag = F13BANKER
@@ -245,18 +247,18 @@ Mayor
 /*--------------------------------------------------------------*/
 */
 /datum/job/khan/f13barkeep
-	title = "Khan Barkeep"
+	title = "Khan Tavernkeeper"
 	flag = F13BARKEEP
 	department_flag = DEP_BIGHORN
 	total_positions = 2
 	spawn_positions = 2
 	roleplay_exclusive_notify = 1
-	supervisors = "the Kharuul and the Five Laws"
-	description = "You are a Khutsdag, a Khan bartender, and a proprietor of the Blue Oyster. You are responsible for ensuring both citizens and travellers in Bighorn can get some food, drink and rest. This town is run by your fellow Khans, and the farm within their compound could provide fresh supplies for your business, so try bartering with them if they are present."
+	supervisors = "the Enforcers and the Five Laws"
+	description = "You are a Khutsdag, a Khan bartender, and a proprietor of the Rising Sun. You are responsible for ensuring both citizens and travellers in Bighorn can get some food, drink and rest. This town is run by your fellow Khans, and the farm within their compound could provide fresh supplies for your business, so try bartering with them if they are present."
 	enforces = "While you have dominion over your private business, your premium status as a citizen may be revoked if you are considered a danger to the populace or anger those in control of the town."
 	selection_color = "#dcba97"
 
-	outfit = /datum/outfit/job/khan
+	outfit = /datum/outfit/job/khan/f13barkeep
 
 	loadout_options = list(
 	/datum/outfit/loadout/rugged,
@@ -264,8 +266,8 @@ Mayor
 	/datum/outfit/loadout/richmantender,
 	/datum/outfit/loadout/diner)
 
-	access = list(ACCESS_BAR, ACCESS_KITCHEN, ACCESS_TOWN_BAR, ACCESS_TOWN)
-	minimal_access = list(ACCESS_BAR, ACCESS_KITCHEN, ACCESS_TOWN_BAR, ACCESS_TOWN)
+	access = list(ACCESS_BAR, ACCESS_KITCHEN, ACCESS_TOWN_BAR, ACCESS_TOWN, ACCESS_KHAN)
+	minimal_access = list(ACCESS_BAR, ACCESS_KITCHEN, ACCESS_TOWN_BAR, ACCESS_TOWN, ACCESS_KHAN)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
 			/datum/job/bighorn,
@@ -278,12 +280,12 @@ Mayor
 	)
 
 
-/datum/outfit/job/bighorn/f13barkeep
-	name = "Barkeep"
+/datum/outfit/job/khan/f13barkeep
+	name = "Khan Tavernkeeper"
 	jobtype = /datum/job/khan/f13barkeep
 
 	uniform = /obj/item/clothing/under/f13/bartenderalt
-	id = /obj/item/card/id/dogtag/town
+	id = /obj/item/card/id/khantattoo
 	ears = /obj/item/radio/headset/headset_town
 	belt = /obj/item/gun/ballistic/revolver/caravan_shotgun
 	shoes = /obj/item/clothing/shoes/workboots/mining
@@ -332,7 +334,7 @@ Mayor
 	shoes = /obj/item/clothing/shoes/f13/military/ncr
 
 /*-----------------------------------------------------*/
-/*
+
 /datum/job/bighorn/f13shopkeeper
 	title = "Shopkeeper"
 	flag = F13SHOPKEEPER
@@ -340,9 +342,9 @@ Mayor
 	total_positions = 2
 	spawn_positions = 2
 	roleplay_exclusive_notify = 1
-	supervisors = "the free market, Sierra Trading Company, and Bighorn laws"
-	description = "You are an Irgen, a Citizen of Bighorn under the protection of the Great Khanate, with ownership. Your store allows you to sell all kinds of merchandise, from dandy boy apples to laser rifles. Ensure you make a profit and retain enough capital for your day-to-day operations."
-	enforces = "While you have dominion over your private business, your premium status as a citizen may be revoked if you are considered a danger to the populace or anger those in control of the town."
+	supervisors = "the free market and the Five Laws"
+	description = "You are a Caravaneer for Bighorn and the New Canaanites, who share operation of the shop with the Karvanchin, a Khan Merchant. Your store allows you to sell all kinds of merchandise, from dandy boy apples to laser rifles. Ensure you make a profit and retain enough capital for your day-to-day operations."
+	enforces = "While you have dominion over your private business, your premium status as a citizen may be revoked if you are considered a danger to the populace or anger those in control of the town. As a New Canaanite, it is also against your faith to sell street chems and other intoxicants."
 	selection_color = "#dcba97"
 	exp_requirements = 0
 
@@ -405,9 +407,9 @@ Mayor
 		return
 
 /*--------------------------------------------------------------*/
-*/
+
 /datum/job/khan/citizen
-	title = "Bighorn Citizen"
+	title = "Bighorn Resident"
 	flag = F13SETTLER
 	department_flag = DEP_BIGHORN
 	total_positions = -1
