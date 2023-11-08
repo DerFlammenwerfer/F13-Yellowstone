@@ -56,7 +56,7 @@ GLOBAL_LIST_INIT(command_positions, list(
 	"Savage Behemoth",
 
 	"Brotherhood Elder",
-	"Khan Nobility",
+	"Khan General",
 	"Enclave Major",
 	"Savage Overlord,"
 	"Novis Legate",
@@ -87,7 +87,7 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 	"Savage Behemoth",
 //Admin Only
 	"Brotherhood Elder",
-	"Khan Nobility",
+	"Khan General",
 	"Enclave Major",
 	"Savage Nightkin Overlord,"
 	"Novis Legate",
@@ -103,12 +103,12 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 ))
 
 GLOBAL_LIST_INIT(brotherhood_positions, list(
-	"Brotherhood High Elder",
 	"Brotherhood Elder",
-
 	"Sentinel",
 
 	"Star Paladin",
+
+	"Senior Paladin",
 	"Paladin",
 	"Knight-Captain",
 	"Knight-Sergeant",
@@ -249,8 +249,8 @@ GLOBAL_LIST_INIT(khan_positions, list(
 
 	"Khan Scholar",
 	"Khan Quartermaster",
-	"Khan Merchant"
-	"Khan Musician",
+	"Khan Merchant"//Move to Bighorn list
+	"Khan Musician",//Move to Bighorn list
 ))
 
 GLOBAL_LIST_INIT(enclave_positions, list(
