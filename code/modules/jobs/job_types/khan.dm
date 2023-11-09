@@ -48,7 +48,7 @@
 
 /datum/job/khan/host
 	title = "Khan of Khans"
-	flag = F13KHANSEN
+	flag = F13KHANHOST
 	faction = FACTION_KHAN
 	total_positions = 1
 	spawn_positions = 1
@@ -66,7 +66,7 @@
 
 /datum/job/khan/admin
 	title = "Khan General"
-	flag = F13KHANSEN
+	flag = F13KHANADMIN
 	faction = FACTION_KHAN
 	total_positions = 1
 	spawn_positions = 1
@@ -83,7 +83,7 @@
 
 /datum/job/khan/chieftain
 	title = "Khan Chieftain"
-	flag = F13KHANSEN
+	flag = F13KHANCHIEFTAIN
 	faction = FACTION_KHAN
 	total_positions = 1
 	spawn_positions = 1
@@ -95,13 +95,17 @@
 	exp_type = EXP_TYPE_KHAN
 	outfit = /datum/outfit/job/khan/chieftain
 
+/datum/outfit/job/khan/chieftain
+	jobtype = /datum/job/khan/chieftain
+	id = /obj/item/card/id/khanleadertattoo
+
 	loadout_options = list(
-		/datum/outfit/loadout/noyan,
+		/datum/outfit/loadout/soldier,
 		)
 
-/datum/job/khan/chieftain
+/datum/job/khan/steward
 	title = "Khan Steward"
-	flag = F13KHANSEN
+	flag = F13KHANSTEWARD
 	faction = FACTION_KHAN
 	total_positions = 1
 	spawn_positions = 1
@@ -111,10 +115,14 @@
 	selection_color = "#ff915e"
 	exp_requirements = 0
 	exp_type = EXP_TYPE_KHAN
-	outfit = /datum/outfit/job/khan/steward
+	outfit = /datum/outfit/job/khan
+
+/datum/outfit/job/khan/steward
+	jobtype = /datum/job/khan/steward
+	id = /obj/item/card/id/khanleadertattoo
 
 	loadout_options = list(
-		/datum/outfit/loadout/steward,
+		/datum/outfit/loadout/soldier,
 		)
 
 /datum/job/khan/rider
@@ -152,7 +160,7 @@
 	outfit = /datum/outfit/job/khan/chief_enforcer
 
 	loadout_options = list(
-		/datum/outfit/loadout/chief_enforcer,
+		/datum/outfit/loadout/soldier,
 		)
 
 /datum/outfit/job/khan/chief_enforcer

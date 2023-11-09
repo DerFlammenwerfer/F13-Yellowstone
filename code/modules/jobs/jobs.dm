@@ -54,13 +54,11 @@ GLOBAL_LIST_INIT(command_positions, list(
 	"Enclave Colonel",
 	"Brotherhood High Elder",
 	"Savage Behemoth",
-
 	"Brotherhood Elder",
 	"Khan General",
 	"Enclave Major",
 	"Savage Overlord,"
 	"Novis Legate",
-
 	"Sentinel",
 	"NCR Captain",
 	"Novis Centurion",
@@ -105,15 +103,12 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 GLOBAL_LIST_INIT(brotherhood_positions, list(
 	"Brotherhood Elder",
 	"Sentinel",
-
 	"Star Paladin",
-
 	"Senior Paladin",
 	"Paladin",
 	"Knight-Captain",
 	"Knight-Sergeant",
 	"Knight",
-
 	"Proctor",
 	"Senior Scribe",
 	"Scribe",
@@ -129,13 +124,11 @@ GLOBAL_LIST_INIT(bighorn_positions, list(
 	"Khan Tavernkeeper",
 	"Bighorn Chaplain",
 	"Bighorn Resident",
-
 ))
 
 GLOBAL_LIST_INIT(legion_command_positions, list(
 	"Novis Rex",
 	"Novis Legate",
-
 	"Novis Centurion",
 	"Novis Decanus"
 	"Novis Veteran Decanus",
@@ -144,20 +137,16 @@ GLOBAL_LIST_INIT(legion_command_positions, list(
 GLOBAL_LIST_INIT(legion_positions, list(
 	"Novis Rex",
 	"Novis Legate",
-
 	"Novis Centurion",
-
 	"Novis Veteran Decanus",
 	"Novis Decanus",
 	"Novis Vexillarius",
-
 	"Novis Libritor",
 	"Novis Veteran Legionary",
 	"Novis Prime Legionary",
 	"Novis Auxilliary",
 	"Novis Recruit Legionary",
 	"Novis Immune",
-
 	"Novis Priest of Mars",
 	"Novis Priestess of Pax",
 	"Novis Orator",
@@ -167,13 +156,10 @@ GLOBAL_LIST_INIT(legion_positions, list(
 
 GLOBAL_LIST_INIT(ncr_positions, list(
 	"NCR Major",
-
 	"NCR Captain",
 	"NCR Lieutenant",
-
 	"NCR Ranger",
 	"NCR 1st Recon",
-
 	"NCR Sergeant",
 	"NCR Corporal",
 	"NCR Support Gunner",
@@ -182,7 +168,6 @@ GLOBAL_LIST_INIT(ncr_positions, list(
 	"NCR Trooper",
 	"NCR Conscript",
 	"NCR Rear Echelon",
-
 	"NCR Medical Officer",
 	"NCR Caravaneer",
 	"NCR Caravan Guard",

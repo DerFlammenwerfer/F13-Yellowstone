@@ -186,6 +186,8 @@
 #define F13KHANSEN (1<<2)
 #define F13KHANSMITH (1<<3)
 #define F13KHANCOURT (1<<4)
+#define F13KHANCHIEFTAIN (1<<5)
+
 
 #define JOB_AVAILABLE 0
 #define JOB_UNAVAILABLE_GENERIC 1
