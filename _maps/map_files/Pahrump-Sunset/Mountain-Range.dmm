@@ -402,8 +402,13 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "dw" = (
-/obj/structure/table/glass,
-/obj/item/storage/backpack/duffelbag/med/surgery/alien,
+/obj/machinery/door/airlock/hatch{
+	req_access = null;
+	req_access_txt = "256"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "enc_xenocell_shutters"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/enclave)
 "dz" = (
@@ -1233,6 +1238,12 @@
 /obj/item/hemostat,
 /obj/item/retractor,
 /obj/structure/table/glass,
+/obj/item/storage/backpack/duffelbag/med/surgery/alien,
+/obj/item/clothing/gloves/color/latex/nitrile,
+/obj/item/cautery,
+/obj/item/scalpel,
+/obj/item/circular_saw,
+/obj/item/surgicaldrill,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/enclave)
 "js" = (
@@ -1662,13 +1673,11 @@
 	},
 /area/f13/enclave)
 "mB" = (
-/obj/item/circular_saw,
-/obj/item/scalpel,
-/obj/item/surgicaldrill,
 /obj/structure/table/glass,
 /obj/machinery/light,
-/obj/item/cautery,
-/obj/item/clothing/gloves/color/latex/nitrile,
+/obj/machinery/button/door{
+	id = "enc_xenocell_shutters"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/enclave)
 "mD" = (
@@ -2688,6 +2697,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/structure/closet/l3closet/scientist,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/enclave)
 "ts" = (
@@ -31389,7 +31399,7 @@ pC
 pC
 pC
 mA
-dw
+kI
 SP
 SP
 SP
@@ -31903,7 +31913,7 @@ pC
 pC
 pC
 mA
-kI
+JZ
 SP
 SP
 mA
@@ -32159,8 +32169,8 @@ pC
 pC
 pC
 pC
-mA
-JZ
+dw
+SP
 SP
 SP
 SP
@@ -32926,10 +32936,10 @@ HA
 HA
 iT
 AW
-AS
-KI
 pC
-AS
+pC
+pC
+pC
 mA
 xC
 fJ
@@ -33183,10 +33193,10 @@ HA
 HA
 iT
 AW
-AW
-AW
-AW
-AW
+AS
+KI
+pC
+AS
 mA
 mA
 mA
@@ -33439,12 +33449,12 @@ HA
 HA
 HA
 iT
-iT
-iT
-iT
-iT
-iT
-iT
+AW
+AW
+AW
+AW
+AW
+mA
 iT
 iT
 iT
@@ -33695,14 +33705,14 @@ HA
 HA
 jv
 HA
-HA
-HA
-HA
-HA
-HA
-HA
-HA
-HA
+iT
+iT
+iT
+iT
+iT
+iT
+iT
+iT
 HA
 HA
 UE
