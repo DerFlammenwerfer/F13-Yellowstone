@@ -72,7 +72,6 @@ Mayor
 		/obj/item/pen/fountain/captain = 1,
 		/obj/item/storage/bag/money/small/mayor = 1,)//Cash for payouts. Incredible amount, seeing as next to the Banker, he's the closest thing to a treasury keeper.
 /*--------------------------------------------------------------*/
-*/
 /datum/job/bighorn/f13sheriff
 	title = "Crossroads Sheriff"
 	flag = F13SHERIFF
