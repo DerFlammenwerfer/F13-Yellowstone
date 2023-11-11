@@ -3,7 +3,7 @@ GLOBAL_LIST_INIT(engineering_positions, list(
 	"Chief Engineer",
 	"Station Engineer",
 	"Atmospheric Technician",
-	))
+))
 
 
 GLOBAL_LIST_INIT(medical_positions, list(
@@ -13,20 +13,20 @@ GLOBAL_LIST_INIT(medical_positions, list(
 	"Virologist",
 	"Paramedic",
 	"Chemist",
-	))
+))
 
 
 GLOBAL_LIST_INIT(science_positions, list(
 	"Research Director",
 	"Scientist",
 	"Roboticist",
-	))
+))
 
 GLOBAL_LIST_INIT(supply_positions, list(
 	"Quartermaster",
 	"Cargo Technician",
 	"Shaft Miner",
-	))
+))
 
 GLOBAL_LIST_INIT(civilian_positions, list(
 	"Head of Personnel",
@@ -38,7 +38,7 @@ GLOBAL_LIST_INIT(civilian_positions, list(
 	"Lawyer",
 	"Chaplain",
 	"Assistant",
-	))
+))
 
 
 GLOBAL_LIST_INIT(nonhuman_positions, list(
@@ -46,7 +46,7 @@ GLOBAL_LIST_INIT(nonhuman_positions, list(
 	"Cyborg",
 	"Followers Robot",
 	ROLE_PAI,
-	))
+))
 
 GLOBAL_LIST_INIT(command_positions, list(
 	"Khan of Khans",
@@ -57,7 +57,7 @@ GLOBAL_LIST_INIT(command_positions, list(
 	"Brotherhood Elder",
 	"Khan General",
 	"Enclave Major",
-	"Savage Overlord,"
+	"Savage Overlord",
 	"Novis Legate",
 	"Sentinel",
 	"NCR Captain",
@@ -66,10 +66,7 @@ GLOBAL_LIST_INIT(command_positions, list(
 	"Followers Administrator",
 	"Khan Chieftain",
 	"Tribal Shaman",
-
-//	"Noyan",
-//	"Steward",
-	))
+))
 
 GLOBAL_LIST_INIT(silicon_whitelist_positions, list(
 "Mr. Handy"))
@@ -77,20 +74,17 @@ GLOBAL_LIST_INIT(silicon_whitelist_positions, list(
 //NCR Assistant and Novis Camp Follower re-added to whitelisting.  BoS Initiate removed from whitelist.
 
 GLOBAL_LIST_INIT(faction_whitelist_positions, list(
-//Headmin Only
-	"Khan of Khans",//Reserved for Host
+	"Khan of Khans",
 	"Novis Rex",
 	"Enclave Colonel",
 	"Brotherhood High Elder",
 	"Savage Behemoth",
-//Admin Only
 	"Brotherhood Elder",
 	"Khan General",
 	"Enclave Major",
-	"Savage Nightkin Overlord,"
+	"Savage Nightkin Overlord",
 	"Novis Legate",
 	"NCR Major",
-//Leadership Only
 	"Sentinel",
 	"NCR Captain",
 	"Novis Centurion",
@@ -130,7 +124,7 @@ GLOBAL_LIST_INIT(legion_command_positions, list(
 	"Novis Rex",
 	"Novis Legate",
 	"Novis Centurion",
-	"Novis Decanus"
+	"Novis Decanus",
 	"Novis Veteran Decanus",
 ))
 
@@ -153,12 +147,14 @@ GLOBAL_LIST_INIT(legion_positions, list(
 	"Novis Peregrine",
 	"Novis Citizen",
 	"Novis Slave",
+))
 
 GLOBAL_LIST_INIT(ncr_positions, list(
 	"NCR Major",
 	"NCR Captain",
 	"NCR Lieutenant",
 	"NCR Ranger",
+	"NCR Veteran Ranger",
 	"NCR 1st Recon",
 	"NCR Sergeant",
 	"NCR Corporal",
@@ -172,6 +168,10 @@ GLOBAL_LIST_INIT(ncr_positions, list(
 	"NCR Caravaneer",
 	"NCR Caravan Guard",
 	"NCR Ambassador",
+))
+
+GLOBAL_LIST_INIT(ncr_rangervet_positions, list(
+	"NCR Veteran Ranger",
 ))
 
 GLOBAL_LIST_INIT(vault_positions, list(
@@ -200,18 +200,14 @@ GLOBAL_LIST_INIT(outlaw_positions, list(
 GLOBAL_LIST_INIT(savages_positions, list(
 	"Savage Behemoth",
 	"Savage Nightkin Overlord",
-
 	"Savage Overlord",
-
 	"Savage Nightkin Master",
 	"Savage Nightkin Jailor",
 	"Savage Nightkin Manhunter",
 	"Savage Nightkin",
-
 	"Savage Master",
 	"Savage Brute",
 	"Savage Mutant",
-
 	"Savage Sawdoc",
 	"Savage Man-Servant",
 	"Savage Prisoner",
@@ -221,20 +217,17 @@ GLOBAL_LIST_INIT(savages_positions, list(
 GLOBAL_LIST_INIT(khan_positions, list(
 	"Khan of Khans",
 	"Khan General",
-
 	"Khan Chieftain",
 	"Khan Steward",
-
-	"Khan Cavalry"
+	"Khan Cavalry",
 	"Khan Chief Enforcer",
 	"Khan Enforcer",
 	"Khan Sergeant",
 	"Khan Soldier",
 	"Khan Muscle",
-
 	"Khan Scholar",
 	"Khan Quartermaster",
-	"Khan Merchant"//Move to Bighorn list
+	"Khan Merchant",//Move to Bighorn list
 	"Khan Musician",//Move to Bighorn list
 ))
 
@@ -246,8 +239,7 @@ GLOBAL_LIST_INIT(enclave_positions, list(
 	"Enclave Specialist",
 	"Enclave Regular",
 	"Enclave Private",
-
-	"Enclave Medical Officer"
+	"Enclave Medical Officer",
 	"Enclave Scientist",
 	"Enclave Off Duty",
 	"Enclave Vault Dweller",

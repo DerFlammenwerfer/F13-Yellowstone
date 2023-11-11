@@ -95,13 +95,13 @@
 	exp_type = EXP_TYPE_KHAN
 	outfit = /datum/outfit/job/khan/chieftain
 
-/datum/outfit/job/khan/chieftain
-	jobtype = /datum/job/khan/chieftain
-	id = /obj/item/card/id/khanleadertattoo
-
 	loadout_options = list(
 		/datum/outfit/loadout/soldier,
 		)
+
+/datum/outfit/job/khan/chieftain
+	jobtype = /datum/job/khan/chieftain
+	id = /obj/item/card/id/khanleadertattoo
 
 /datum/job/khan/steward
 	title = "Khan Steward"
@@ -117,17 +117,18 @@
 	exp_type = EXP_TYPE_KHAN
 	outfit = /datum/outfit/job/khan
 
-/datum/outfit/job/khan/steward
-	jobtype = /datum/job/khan/steward
-	id = /obj/item/card/id/khanleadertattoo
-
 	loadout_options = list(
 		/datum/outfit/loadout/soldier,
 		)
 
+/datum/outfit/job/khan/steward
+	jobtype = /datum/job/khan/steward
+	id = /obj/item/card/id/khanleadertattoo
+
+
 /datum/job/khan/rider
 	title = "Khan Cavalry"
-	flag = F13KHAN
+	flag = F13KHANCAVALRY
 	faction = FACTION_KHAN
 	total_positions = 2
 	spawn_positions = 2
@@ -146,7 +147,7 @@
 
 /datum/job/khan/chief_enforcer
 	title = "Khan Chief Enforcer"
-	flag = F13KHANSEN
+	flag = F13KHANCHIEFENFORCER
 	faction = FACTION_KHAN
 	total_positions = 1
 	spawn_positions = 1
@@ -190,7 +191,7 @@
 
 /datum/job/khan/enforcer
 	title = "Khan Enforcer"
-	flag = F13KHAN
+	flag = F13KHANENFORCER
 	faction = FACTION_KHAN
 	total_positions = 4
 	spawn_positions = 4
@@ -223,7 +224,7 @@
 
 /datum/job/khan/soldier
 	title = "Khan Soldier"
-	flag = F13KHAN
+	flag = F13KHANSOLDIER
 	faction = FACTION_KHAN
 	total_positions = 8
 	spawn_positions = 8
@@ -242,7 +243,7 @@
 
 /datum/job/khan/sergeant
 	title = "Khan Sergeant"
-	flag = F13KHAN
+	flag = F13KHANSERGEANT
 	faction = FACTION_KHAN
 	total_positions = 2
 	spawn_positions = 2
@@ -269,7 +270,7 @@
 
 /datum/job/khan/muscle
 	title = "Khan Muscle"
-	flag = F13KHAN
+	flag = F13KHANMUSCLE
 	faction = FACTION_KHAN
 	total_positions = -1
 	spawn_positions = -1
@@ -288,7 +289,7 @@
 
 /datum/job/khan/chemist
 	title = "Khan Scholar"
-	flag = F13KHANCHEMIST
+	flag = F13KHANSCHOLAR
 	faction = FACTION_KHAN
 	total_positions = 2
 	spawn_positions = 2
@@ -309,7 +310,7 @@
 
 /datum/job/khan/smith
 	title = "Khan Quartermaster"
-	flag = F13KHANSMITH
+	flag = F13KHANQUARTERMASTER
 	faction = FACTION_KHAN
 	total_positions = 2
 	spawn_positions = 2
@@ -329,12 +330,12 @@
 
 /datum/job/khan/merchant
 	title = "Khan Merchant"
-	flag = F13KHANSMITH
+	flag = F13KHANMERCHANT
 	faction = FACTION_KHAN
 	total_positions = 2
 	spawn_positions = 2
-	description = "You are a Karvanchin, a Khan merchant with access to a covered wagon that travels between Bighorn and New Canaan."
-	enforces = "You share control over the Shop with the Shopkeeper. The shop is a valuable asset in maintaining your presence in the area."
+	description = "You are a Karvanchin, a Khan merchant with access to a cargo truck that travels between Bighorn and New Canaan."
+	enforces = "You are responsible for bankrolling the efforts of the Khans by trading with locals and exporting their wares in exchange for a cut of the profits, and maybe even a shiny new piece of deadly hardware."
 	supervisors = "The Chieftain, the Enforcers, and the Five Laws."
 	selection_color = "#ff915e"
 	req_admin_notify = 1
@@ -349,7 +350,7 @@
 
 /datum/job/khan/courtesan
 	title = "Khan Musician"
-	flag = F13KHANCOURT
+	flag = F13KHANMUSICIAN
 	faction = FACTION_KHAN
 	total_positions = 3
 	spawn_positions = 3
