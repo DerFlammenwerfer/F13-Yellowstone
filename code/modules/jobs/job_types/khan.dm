@@ -99,7 +99,7 @@
 	enforces = "You are responsible for overall command of the Khans in the region, as well as addressing the concerns of the Followers and the New Canaanites brought forth to you by your Steward."
 	supervisors = "The Generals and the Khan of Khans"
 	selection_color = "#ff915e"
-	exp_requirements = 0
+	exp_requirements = 9999999
 	exp_type = EXP_TYPE_KHAN
 	outfit = /datum/outfit/job/khan/chieftain
 

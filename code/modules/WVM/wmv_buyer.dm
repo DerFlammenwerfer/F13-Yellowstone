@@ -280,7 +280,7 @@ Fence
 								/obj/item/clothing/suit/armor/f13/headscribe = 75,
 								/obj/item/gun/ballistic/automatic/pistol/n99/crusader = 75,
 								/obj/item/clothing/under/f13/recon = 30,
-								/obj/item/clothing/accessory/bos/sentinel = 30,
+								/obj/item/clothing/accessory/bos/starpaladin = 30,
 								/obj/item/clothing/suit/f13/elder = 300,
 								/obj/item/clothing/accessory/bos/elder = 300,
 								/obj/item/gun/energy/laser/laer = 600,
