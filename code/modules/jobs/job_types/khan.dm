@@ -58,11 +58,15 @@
 	selection_color = "#ff915e"
 	exp_requirements = 0
 	exp_type = EXP_TYPE_KHAN
-	outfit = /datum/outfit/job/khan/senior_enforcer
+	outfit = /datum/outfit/job/khan/host
 
 	loadout_options = list(
 		/datum/outfit/loadout/senior,
 		)
+
+/datum/outfit/job/khan/host
+	jobtype = /datum/job/khan/host
+	id = /obj/item/card/id/khanleadertattoo
 
 /datum/job/khan/admin
 	title = "Khan General"
@@ -76,10 +80,14 @@
 	selection_color = "#ff915e"
 	exp_requirements = 0
 	exp_type = EXP_TYPE_KHAN
-	outfit = /datum/outfit/job/khan/senior_enforcer
+	outfit = /datum/outfit/job/khan/admin
 	loadout_options = list(
 		/datum/outfit/loadout/senior,
 		)
+
+/datum/outfit/job/khan/admin
+	jobtype = /datum/job/khan/admin
+	id = /obj/item/card/id/khanleadertattoo
 
 /datum/job/khan/chieftain
 	title = "Khan Chieftain"
@@ -383,10 +391,6 @@
 
 /datum/outfit/job/khan/chemist
 	jobtype = /datum/job/khan/chemist
-
-/datum/outfit/job/khan/senior_enforcer
-	jobtype = /datum/job/khan/senior_enforcer
-	id = /obj/item/card/id/khanleadertattoo
 
 /datum/outfit/job/khan/smith
 	jobtype = /datum/job/khan/smith

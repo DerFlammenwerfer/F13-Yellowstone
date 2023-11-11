@@ -165,7 +165,7 @@
 #define F13USBDUTY		(1<<6)
 #define F13USIS			(1<<7)
 #define F13USMAJ		(1<<8)
-#define F13USSCPL		(1<<9)
+#define F13USCPL		(1<<9)
 
 #define FOLLOWERS		(1<<12)
 
