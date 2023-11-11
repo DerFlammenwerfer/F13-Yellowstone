@@ -28,16 +28,16 @@ Will probably start phasing more of this to actual custom access as we go.
 /*
 Mayor
 */
-/*
+
 /datum/job/bighorn/f13mayor
-	title = "Mayor"
+	title = "Crossroads Mayor"
 	flag = F13MAYOR
 	department_flag = DEP_BIGHORN
 	total_positions = 1
 	spawn_positions = 1
 	roleplay_exclusive_notify = 1
-	supervisors = "Yourself"
-	description = "You are the benevolent tyrant of Bighorn, chosen by the people to represent and lead them. Pass laws to protect your citizens, distribute town funds and make deals with the powers present within the Region to better the people, and yourself, of course."
+	supervisors = "the Noyan and the Five Laws"
+	description = "You are the elected Mayor of Crossroads, chosen by the people to represent and lead them. Crossroads is an august little town just outside the southern wall of Bighorn, the capital of the Great Khanate. Pass laws to protect your citizens, distribute town funds and make deals with the Khans and other powers within the region to better the people, and yourself, of course."
 	selection_color = "#d7b088"
 	exp_requirements = 0
 	outfit = /datum/outfit/job/bighorn/f13mayor
@@ -72,15 +72,14 @@ Mayor
 		/obj/item/pen/fountain/captain = 1,
 		/obj/item/storage/bag/money/small/mayor = 1,)//Cash for payouts. Incredible amount, seeing as next to the Banker, he's the closest thing to a treasury keeper.
 /*--------------------------------------------------------------*/
-*/
 /datum/job/bighorn/f13sheriff
-	title = "Sheriff"
+	title = "Crossroads Sheriff"
 	flag = F13SHERIFF
-	department_flag = KHAN
+	department_flag = DEP_BIGHORN
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Noyan and the Five Laws."
-	description = "As the chief law enforcer of Bighorn, your job is to keep the peace, settle local disputes, and keep your townsfolk safe and alive. While you are not necessarily a Khan yourself, you are nevertheless elected by the town to enforce the Five Laws and hold authority over the Kharuul. Sometimes the people you handle inside the town will be alive in cuffs, or dead on the street. Other times, they'll escape the limits of the town, to which you can put a bounty on their head for their capture, or hire some Muscle capture them. However, you must remember these three critical things: never leave the town undefended, keep the townsfolk alive and safe. "
+	supervisors = "the Mayor and the Five Laws."
+	description = "As the elected Sheriff of Crossroads, your job is to keep the peace, settle local disputes, and keep your townsfolk safe and alive. While you are not necessarily a Khan yourself, you are respected by them and given free reign to handle enforcement of the Five Laws in Crossroads. Sometimes the people you handle inside the town will be alive in cuffs, or dead on the street. Other times, they'll escape the limits of the town, to which you can put a bounty on their head for their capture, or hire some Muscle capture them. However, you must remember these three critical things: never leave the town undefended, keep the townsfolk alive and safe. "
 	selection_color = "#d7b088"
 	exp_requirements = 0
 	outfit = /datum/outfit/job/bighorn/f13sheriff
@@ -126,13 +125,13 @@ Mayor
 /*--------------------------------------------------------------*/
 
 /datum/job/bighorn/f13deputy
-	title = "Deputy"
+	title = "Crossroads Deputy"
 	flag = F13DEPUTY
 	department_flag = DEP_BIGHORN
 	total_positions = 4
 	spawn_positions = 4
-	supervisors = "the sheriff and the mayor"
-	description = "Working alongside the Sheriff you've known them for a while, having worked with them under the previous Sheriff - you bagged many a bandit and raider together on the road. These days you patrol the areas outside of town, tracking down bounties on the run and keeping the settlers safe from harm."
+	supervisors = "the Sheriff and the Mayor"
+	description = "You're a deputy of Crossroads, a small town built just outside the walls of the Khanate capital, Bighorn."
 	selection_color = "#dcba97"
 	exp_requirements = 0
 	outfit = /datum/outfit/job/bighorn/f13deputy
@@ -336,14 +335,14 @@ Mayor
 /*-----------------------------------------------------*/
 
 /datum/job/bighorn/f13shopkeeper
-	title = "Shopkeeper"
+	title = "Crossroads Shopkeeper"
 	flag = F13SHOPKEEPER
 	department_flag = DEP_BIGHORN
 	total_positions = 2
 	spawn_positions = 2
 	roleplay_exclusive_notify = 1
 	supervisors = "the free market and the Five Laws"
-	description = "You are a Caravaneer for Bighorn and the New Canaanites, who share operation of the shop with the Karvanchin, a Khan Merchant. Your store allows you to sell all kinds of merchandise, from dandy boy apples to laser rifles. Ensure you make a profit and retain enough capital for your day-to-day operations."
+	description = "You are a Caravaneer for Crossroads and the New Canaanites, who have close ties with the Karvanchin, a Khan Merchant. Your store allows you to sell all kinds of merchandise, from dandy boy apples to laser rifles. Ensure you make a profit and retain enough capital for your day-to-day operations."
 	enforces = "While you have dominion over your private business, your premium status as a citizen may be revoked if you are considered a danger to the populace or anger those in control of the town. As a New Canaanite, it is also against your faith to sell street chems and other intoxicants."
 	selection_color = "#dcba97"
 	exp_requirements = 0
@@ -410,7 +409,7 @@ Mayor
 
 /datum/job/khan/citizen
 	title = "Bighorn Resident"
-	flag = F13SETTLER
+	flag = F13CITIZEN
 	department_flag = DEP_BIGHORN
 	total_positions = -1
 	spawn_positions = -1
@@ -420,7 +419,7 @@ Mayor
 	enforces = "Your premium status as a citizen may be revoked if you break the Five Laws too often or too severely. Khan justice is harsh, but typically also fair."
 	selection_color = "#dcba97"
 
-	outfit = /datum/outfit/job/bighorn/f13settler
+	outfit = /datum/outfit/job/bighorn/f13resident
 
 	loadout_options = list(
 		/datum/outfit/loadout/provisioner,
@@ -442,16 +441,50 @@ Mayor
 		),
 	)
 
+/datum/job/bighorn/f13settler
+	title = "Crossroads Settler"
+	flag = F13SETTLER
+	department_flag = DEP_BIGHORN
+	total_positions = -1
+	spawn_positions = -1
+	roleplay_exclusive_notify = 1
+	supervisors = "the Lawmen and the Five Laws"
+	description = "You are a Settler, a resident of Crossroads, a small town made up of people drawn to the safety of the Khanate's walls, but not born within them. Your town has an agreement with the Khans who rule Bighorn, in which it is protected from invasion by the Khanate's soldiers, but largely policed by the Mayor, the Sheriff, and the Deputies instead of the Darga and the Kharuul, the Khanate's enforcers."
+	enforces = "Try not to break the Five Laws too often or too severely. Khan justice is harsh, but they normally leave law enforcement in Crossroads to the Sheriff."
+	selection_color = "#dcba97"
+
+	outfit = /datum/outfit/job/bighorn/f13settler
+
+	loadout_options = list(
+		/datum/outfit/loadout/provisioner,
+		/datum/outfit/loadout/groundskeeper,
+		/datum/outfit/loadout/farmer,
+		/datum/outfit/loadout/artisan,
+		/datum/outfit/loadout/outdoorsman,
+		/datum/outfit/loadout/militia,
+		/datum/outfit/loadout/singer,
+	)
+	access = list(ACCESS_TOWN)
+	minimal_access = list(ACCESS_BAR)
+	matchmaking_allowed = list(
+		/datum/matchmaking_pref/friend = list(
+			/datum/job/bighorn,
+		),
+		/datum/matchmaking_pref/rival = list(
+			/datum/job/bighorn,
+		),
+	)
+
 //Wasteland Preacher
 /datum/job/bighorn/f13preacher
-	title = "Preacher"
+	title = "Bighorn Chaplain"
 	flag = F13PREACHER
 	faction = FACTION_WASTELAND
 	total_positions = 1
 	spawn_positions = 1
 	roleplay_exclusive_notify = 1
 	supervisors = "your faith and the Five Laws"
-	description = "You are a New Canaanite serving as a missionary to Bighorn, and a connection to other Mormons. While the town has no shortage of skepticism or biting remarks about Faith, you do what you can for the people of Bighorn, for God has love, even for the Gentiles. Sometimes this also means advocating on behalf of criminals, if the evidence against them is weak enough."
+	description = "You are a New Canaanite serving as a missionary to Bighorn and Crossroads. While the town has no shortage of skepticism or biting remarks about Faith, you do what you can for the people of Bighorn, for God has love, even for the Gentiles. Sometimes this also means advocating on behalf of criminals, if the evidence against them is weak enough."
 	enforces = "Your premium status as a citizen may be revoked if you break the Five Laws too often or too severely. Khan justice is harsh, but typically also fair. However, your chapel is sacred ground, and you and your clergy have the right to protect it from bloodshed."
 	selection_color = "#dcba97"
 
@@ -608,7 +641,7 @@ Mayor
 
 
 /datum/outfit/job/bighorn/f13preacher
-	name = "Preacher"
+	name = "Bighorn Chaplain"
 	jobtype = /datum/job/bighorn/f13preacher
 
 	id = /obj/item/card/id/dogtag/town
@@ -629,9 +662,25 @@ Mayor
 		/obj/item/storage/bag/money/small/settler)
 //end preacher
 
-/datum/outfit/job/bighorn/f13settler
-	name = "Citizen"
+/datum/outfit/job/bighorn/f13resident
+	name = "Bighorn Resident"
 	jobtype = /datum/job/khan/citizen
+	ears = /obj/item/radio/headset/headset_town
+	belt = null
+	id = /obj/item/card/id/dogtag/town
+	uniform = /obj/item/clothing/under/f13/settler
+	shoes = /obj/item/clothing/shoes/jackboots
+	backpack = /obj/item/storage/backpack/satchel/explorer
+	r_pocket = /obj/item/flashlight/flare
+	r_hand = /obj/item/book/granter/trait/selection
+	backpack_contents = list(
+		/obj/item/storage/bag/money/small/settler = 1,
+		/obj/item/melee/onehanded/knife/hunting = 1,
+		)
+
+/datum/outfit/job/bighorn/f13settler
+	name = "Crossroads Settler"
+	jobtype = /datum/job/bighorn/f13settler
 	ears = /obj/item/radio/headset/headset_town
 	belt = null
 	id = /obj/item/card/id/dogtag/town

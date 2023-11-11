@@ -108,12 +108,16 @@ GLOBAL_LIST_INIT(brotherhood_positions, list(
 ))
 
 GLOBAL_LIST_INIT(bighorn_positions, list(
-	"Bighorn Sheriff",
-	"Bighorn Deputy",
-	"Bighorn Caravaneer",
+	"Crossroads Sheriff",
+	"Crossroads Deputy",
+	"Crossroads Shopkeeper",
 	"Khan Tavernkeeper",
-	"Bighorn Chaplain",
+	"Crossroads Chaplain",
 	"Bighorn Resident",
+	"Crossroads Settler",
+	"Crossroads Mayor",
+	"Khan Merchant",
+	"Khan Musician",
 ))
 
 GLOBAL_LIST_INIT(legion_command_positions, list(
@@ -223,8 +227,6 @@ GLOBAL_LIST_INIT(khan_positions, list(
 	"Khan Muscle",
 	"Khan Scholar",
 	"Khan Quartermaster",
-	"Khan Merchant",//Move to Bighorn list
-	"Khan Musician",//Move to Bighorn list
 ))
 
 GLOBAL_LIST_INIT(enclave_positions, list(

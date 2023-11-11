@@ -84,7 +84,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 // LEGATE
 
 /datum/job/CaesarsLegion/Legionnaire/f13legate
-	title = "Legion Legate"
+	title = "Novis Legate"
 	flag = F13LEGATE
 	head_announce = list("Security")
 	supervisors = "Caesar"
@@ -128,7 +128,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 // ORATOR
 
 /datum/job/CaesarsLegion/Legionnaire/f13orator
-	title = "Legion Orator"
+	title = "Novis Orator"
 	flag = F13ORATOR
 	supervisors = "Centurion"
 	selection_color = "#ffdddd"
@@ -184,7 +184,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 // CENTURION
 
 /datum/job/CaesarsLegion/Legionnaire/f13centurion
-	title = "Legion Centurion"
+	title = "Novis Centurion"
 	flag = F13CENTURION
 	head_announce = list("Security")
 	total_positions = 1
@@ -284,7 +284,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 // VETERAN DECANUS
 
 /datum/job/CaesarsLegion/Legionnaire/f13decanvet
-	title = "Legion Veteran Decanus"
+	title = "Novis Veteran Decanus"
 	flag = F13DECANVET
 	total_positions = 1
 	spawn_positions = 1
@@ -380,7 +380,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 // PRIME DECANUS
 
 /datum/job/CaesarsLegion/Legionnaire/f13decan
-	title = "Legion Prime Decanus"
+	title = "Novis Prime Decanus"
 	flag = F13DECAN
 	total_positions = 1
 	spawn_positions = 1
@@ -468,7 +468,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 // RECRUIT DECANUS
 
 /datum/job/CaesarsLegion/Legionnaire/f13decanrec
-	title = "Legion Recruit Decanus"
+	title = "Novis Recruit Decanus"
 	flag = F13DECANREC
 	total_positions = 1
 	spawn_positions = 1
@@ -548,7 +548,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 // VEXILLARIUS
 
 /datum/job/CaesarsLegion/Legionnaire/f13vexillarius
-	title = "Legion Vexillarius"
+	title = "Novis Vexillarius"
 	flag = F13VEXILLARIUS
 	total_positions = 2
 	spawn_positions = 2
@@ -635,7 +635,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 //EXPLORER
 
 /datum/job/CaesarsLegion/Legionnaire/f13explorer
-	title = "Legion Explorer"
+	title = "Novis Explorer"
 	flag = F13EXPLORER
 	total_positions = 2
 	spawn_positions = 3
@@ -714,7 +714,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 // VETERAN
 
 /datum/job/CaesarsLegion/Legionnaire/vetlegionnaire
-	title = "Veteran Legionnaire"
+	title = "Novis Veteran Legionnaire"
 	flag = F13VETLEGIONARY
 	total_positions = 3
 	spawn_positions = 3
@@ -807,7 +807,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 // PRIME
 
 /datum/job/CaesarsLegion/Legionnaire/f13legionary
-	title = "Prime Legionnaire"
+	title = " Novis Prime Legionnaire"
 	flag = F13LEGIONARY
 	total_positions = 4
 	spawn_positions = 4
@@ -884,7 +884,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 // RECRUIT
 
 /datum/job/CaesarsLegion/Legionnaire/f13recleg
-	title = "Recruit Legionnaire"
+	title = "Novis Recruit Legionnaire"
 	flag = F13RECRUITLEG
 	total_positions = 5
 	spawn_positions = 5
@@ -955,7 +955,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 // Immunes are mostly an off-duty role meant to attend to the camp itself and the slaves or prisoners within.
 
 /datum/job/CaesarsLegion/Legionnaire/f13immune
-	title = "Legion Immune"
+	title = "Novis Immune"
 	flag = F13IMMUNE
 	total_positions = 3
 	spawn_positions = 1
@@ -990,7 +990,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 // FORGE MASTER
 
 /datum/job/CaesarsLegion/Legionnaire/f13campfollower	// Extra materials, Blueprints
-	title = "Legion Forgemaster"
+	title = "Novis Peregrine"
 	flag = F13CAMPFOLLOWER
 	total_positions = 1
 	spawn_positions = 2
@@ -1048,10 +1048,10 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 
 
 
-// AUXILIA - Civilians with special training. Can sow new uniforms for soldiers who lost theirs, and are loyal so they would never abuse this.
+// AUXILIA - Civilians with special training. Can sew new uniforms for soldiers who lost theirs, and are loyal so they would never abuse this.
 
 /datum/job/CaesarsLegion/auxilia
-	title = "Legion Auxilia"
+	title = "Novis Auxilliary"
 	flag = F13AUXILIA
 	total_positions = 3
 	spawn_positions = 3
@@ -1155,7 +1155,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 // Both get Mars teachings to help out when normal work is done.
 
 /datum/job/CaesarsLegion/slave
-	title = "Legion Slave"
+	title = "Novis Slave"
 	flag = F13LEGIONSLAVE
 	total_positions = 2
 	spawn_positions = 3
@@ -1253,33 +1253,34 @@ Post Scriptum
 Plans: Add recipes/traits to keep refining support roles, Forgemaster done, others will need some minor tweaking. Planned is making the medicus more of a improvised surgery master, using primitive tools to good effect, because its interesting and unique.
 Venator  - Zero slots, role built on cloning vet ranger, linear just vastly better than all but the Cent, snowflakey in command when it suits them, messes up the chain of command thats already messy for Legion. FUCK IT ENABLE IT
 */
-/*
-/datum/job/CaesarsLegion/Legionnaire/f13venator
-	title = "Legion Venator"
-	flag = F13VENATOR
-	total_positions = 1
-	spawn_positions = 1
-	description = "You are the Venator -- the Hunter. With your powerful rifle and your many years of experience, you are a formidable killing machine, capable of taking down even the most formidable targets. Note that you are not a rank-and-file legionary, and you should not be operating as such -- your job is special operations, not fighting alongside the hordes of the Legion."
+
+/datum/job/CaesarsLegion/Legionnaire/f13libritor
+	title = "Novis Libritor"
+	flag = F13LIBRITOR
+	total_positions = 2
+	spawn_positions = 2
+	description = "You are an Aquili Libritor, the premier heavy infantry of Novis. With your powerful machinegun, heavy armor, and your many years of experience and academy training, you are a formidable killing machine capable of taking down even the most formidable targets."
 	supervisors = "the Centurion"
 	selection_color = "#ffdddd"
 	display_order = JOB_DISPLAY_ORDER_VENATOR
-	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13venator
+	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13libritor
 	exp_requirements = 750
 
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13venator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13libritor/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
+	ADD_TRAIT(H, TRAIT_TRIBAL, src)
+	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
-	ADD_TRAIT(H, TRAIT_SILENT_STEP, src)
 	ADD_TRAIT(H, TRAIT_INSANE_AIM, src)
 	H.AddSpell(new /obj/effect/proc_holder/spell/terrifying_presence)
 
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13venator
-	name = "Legion Venator"
-	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13venator
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13libritor
+	name = "Novis Libritor"
+	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13libritor
 	id = /obj/item/card/id/dogtag/legvenator
 	suit = /obj/item/clothing/suit/armor/f13/legion/venator
 	head = /obj/item/clothing/head/helmet/f13/legion/venator
@@ -1288,22 +1289,22 @@ Venator  - Zero slots, role built on cloning vet ranger, linear just vastly bett
 	glasses = /obj/item/clothing/glasses/night/polarizing
 	ears = /obj/item/radio/headset/headset_legion
 	r_pocket = /obj/item/binoculars
-	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper/snipervenator
+	suit_store = /obj/item/gun/ballistic/automatic/m1919
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/w308 = 3,
-		/obj/item/melee/onehanded/machete/gladius = 1,
+		/obj/item/ammo_box/magazine/mm762 = 2,
+		/obj/item/melee/onehanded/machete/spatha = 1,
 		/obj/item/reagent_containers/pill/patch/healpoultice = 3,
 		/obj/item/gun/ballistic/revolver/revolver45 = 1,
 		/obj/item/ammo_box/c45rev = 3,
 		)
-*/
+
 // Slavemaster
 
 /datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 	title = "Legion Slavemaster"
 	flag = F13SLAVEMASTER
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	description = "You are the feared and respected disciplinary corps of the Legion. Acting as both master of the Slaves and de-facto executioner of the Centurion's will within his ranks, you are a faceless and undoubtedly cruel torturer... but be careful to not let your hubris and malice lead to a strikeback from those you thought broken."
 	supervisors = "the Decani and Centurion"
 	roleplay_exclusive_notify = 1
@@ -1342,8 +1343,8 @@ Venator  - Zero slots, role built on cloning vet ranger, linear just vastly bett
 
 // Legion Citizen
 // Really only used for ID console
-/datum/job/ncr/f13legioncitizen
-	title = "Legion Citizen"
+/datum/job/CaesarsLegion/f13legioncitizen
+	title = "Novis Citizen"
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13legioncitizen
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13legioncitizen
