@@ -61,7 +61,7 @@ Elder
 	exp_requirements = 0
 
 	total_positions = 0
-	spawn_positions = 1
+	spawn_positions = 0
 
 	outfit = /datum/outfit/job/bos/f13elder
 

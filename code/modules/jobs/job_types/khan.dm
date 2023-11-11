@@ -50,8 +50,8 @@
 	title = "Khan of Khans"
 	flag = F13KHANHOST
 	faction = FACTION_KHAN
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	description = "You are Ganbaatar Khagan, the ruler of the Great Khanate."
 	enforces = "Your appearance is a special occasion, whether that is a blessing or an omen. Typically, you are either hosting or attending festivals or tournaments of great importance to Bighorn."
 	supervisors = "Nothing and Nobody"
@@ -72,8 +72,8 @@
 	title = "Khan General"
 	flag = F13KHANADMIN
 	faction = FACTION_KHAN
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	description = "You are one of the Janjin, the high-ranking Generals of the Khanate, serving directly under the Khan of Khans. Normally, the appointed Noyan rules the town, but you have been sent to assume command due to special circumstances."
 	enforces = "You enforce the will of Ganbaatar the Inhuman, Khan of Khans and ruler of the Great Khanate. Your presence shouldn't be necessary unless you are part of an event or are carrying out punishment of lesser Khanate leadership."
 	supervisors = "The Khan of Khans"

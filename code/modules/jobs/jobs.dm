@@ -60,6 +60,7 @@ GLOBAL_LIST_INIT(command_positions, list(
 	"Savage Overlord",
 	"Novis Legate",
 	"Sentinel",
+	"Star Paladin",
 	"NCR Captain",
 	"Novis Centurion",
 	"Enclave Captain",
