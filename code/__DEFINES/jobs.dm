@@ -90,7 +90,7 @@
 #define F13DECANVET		(1<<6)
 #define F13VEXILLARIUS	(1<<7)
 #define F13EXPLORER		(1<<8)
-#define F13VENATOR		(1<<9)
+#define F13LIBRITOR		(1<<9)
 #define F13VETLEGIONARY	(1<<10)
 #define F13LEGIONARY	(1<<11)
 #define F13RECRUITLEG	(1<<12)
@@ -129,6 +129,7 @@
 #define F13DEPUTY		(1<<7)
 #define F13SECRETARY	(1<<8)
 #define F13MERC			(1<<9)
+#define F13CITIZEN		(1<<10)
 
 #define VAULT			(1<<7)
 
