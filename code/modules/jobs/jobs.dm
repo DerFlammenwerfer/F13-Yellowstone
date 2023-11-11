@@ -69,7 +69,7 @@ GLOBAL_LIST_INIT(command_positions, list(
 ))
 
 GLOBAL_LIST_INIT(silicon_whitelist_positions, list(
-"Mr. Handy"))
+))
 //Whitelisted positions list FO13 anything that shows up here requires that the user have an entry in the 'role_whitelist' table of id,ckey,"faction"
 //NCR Assistant and Novis Camp Follower re-added to whitelisting.  BoS Initiate removed from whitelist.
 
@@ -86,22 +86,17 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 	"Novis Legate",
 	"NCR Major",
 	"Sentinel",
-	"NCR Captain",
-	"Novis Centurion",
-	"Enclave Captain",
-	"Followers Administrator",
-	"Khan Chieftain",
-	"Tribal Shaman",
 ))
 
 GLOBAL_LIST_INIT(brotherhood_positions, list(
 	"Brotherhood Elder",
 	"Sentinel",
 	"Star Paladin",
-	"Senior Paladin",
+	"Paladin Commander",
+	"Paladin Sovereign",
 	"Paladin",
 	"Knight-Captain",
-	"Knight-Sergeant",
+	"Senior Knight",
 	"Knight",
 	"Proctor",
 	"Senior Scribe",

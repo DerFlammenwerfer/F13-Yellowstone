@@ -464,6 +464,13 @@
 	item_color = "seniorpaladin"
 	minimize_when_attached = TRUE
 
+/obj/item/clothing/accessory/bos/paladincmdr
+	name = "Paladin Commander pins"
+	desc = "A silver pin with one device gilded in gold, little notches at the top end, and a golden sword in the center of purple cloth; worn by the high-ranking Paladin Commander."
+	icon_state = "seniorpaladin"
+	item_color = "seniorpaladin"
+	minimize_when_attached = TRUE
+
 /obj/item/clothing/accessory/bos/seniorknight
 	name = "Senior Knight pins"
 	desc = "A silver pin with one device gilded in gold, little notches at the top end, and a golden sword in the center of purple cloth; worn by the high-ranking Senior Knight."
@@ -486,15 +493,15 @@
 	minimize_when_attached = TRUE
 
 /obj/item/clothing/accessory/bos/headscribe
-	name = "Head Scribe pins"
-	desc = "A gold-plated, silver lined pin with one device and two outstretched wings on the side; a golden sword centered on red-cloth. Worn by the Head Scribe."
+	name = "Proctor pins"
+	desc = "A gold-plated, silver lined pin with one device and two outstretched wings on the side; a golden sword centered on red-cloth. Worn by the Proctor."
 	icon_state = "headscribe"
 	item_color = "headscribe"
 	minimize_when_attached = TRUE
 
-/obj/item/clothing/accessory/bos/sentinel
-	name = "Head Paladin pins"
-	desc = "A gold-plated, silver lined pin with one device and two outstretched wings on the side; a golden sword centered on purple-cloth. Worn by the Head Paladin."
+/obj/item/clothing/accessory/bos/starpaladin
+	name = "Star Paladin pins"
+	desc = "A gold-plated, silver lined pin with one device and two outstretched wings on the side; a golden sword centered on purple-cloth. Worn by the Star Paladin."
 	icon_state = "sentinel"
 	item_color = "sentinel"
 	minimize_when_attached = TRUE
