@@ -1259,12 +1259,12 @@ Venator  - Zero slots, role built on cloning vet ranger, linear just vastly bett
 	flag = F13LIBRITOR
 	total_positions = 2
 	spawn_positions = 2
-	description = "You are an Aquili Libritor, the premier heavy infantry of Novis. With your powerful machinegun, heavy armor, and your many years of experience and academy training, you are a formidable killing machine capable of taking down even the most formidable targets."
+	description = "You are an Aquili Libritor, the premier heavy infantry of Novis. With your powerful machinegun, heavy armor, and your years of battle experience and academy training, you are a formidable killing machine capable of taking down even the most formidable targets."
 	supervisors = "the Centurion"
 	selection_color = "#ffdddd"
 	display_order = JOB_DISPLAY_ORDER_VENATOR
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13libritor
-	exp_requirements = 750
+	exp_requirements = 9999999
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13libritor/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
