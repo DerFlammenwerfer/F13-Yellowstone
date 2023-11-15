@@ -61,7 +61,6 @@
 	outfit = /datum/outfit/job/khan/host
 
 	loadout_options = list(
-		/datum/outfit/loadout/senior,
 		)
 
 /datum/outfit/job/khan/host
@@ -82,7 +81,6 @@
 	exp_type = EXP_TYPE_KHAN
 	outfit = /datum/outfit/job/khan/admin
 	loadout_options = list(
-		/datum/outfit/loadout/senior,
 		)
 
 /datum/outfit/job/khan/admin
@@ -104,7 +102,6 @@
 	outfit = /datum/outfit/job/khan/chieftain
 
 	loadout_options = list(
-		/datum/outfit/loadout/soldier,
 		)
 
 /datum/outfit/job/khan/chieftain
@@ -126,7 +123,6 @@
 	outfit = /datum/outfit/job/khan
 
 	loadout_options = list(
-		/datum/outfit/loadout/soldier,
 		)
 
 /datum/outfit/job/khan/steward
@@ -134,7 +130,7 @@
 	id = /obj/item/card/id/khanleadertattoo
 
 
-/datum/job/khan/rider
+/datum/job/khan/cavalry
 	title = "Khan Cavalry"
 	flag = F13KHANCAVALRY
 	faction = FACTION_KHAN
@@ -146,12 +142,13 @@
 	selection_color = "#ff915e"
 	exp_requirements = 0
 	exp_type = EXP_TYPE_WASTELAND
-	outfit = /datum/outfit/job/khan/enforcer
+	outfit = /datum/outfit/job/khan/cavalry
 
 	loadout_options = list(
-		/datum/outfit/loadout/soldier,
-		/datum/outfit/loadout/soldierb,
 		)
+
+/datum/outfit/job/khan/cavalry
+	jobtype = /datum/job/khan/cavalry
 
 /datum/job/khan/chief_enforcer
 	title = "Khan Chief Enforcer"
@@ -169,7 +166,7 @@
 	outfit = /datum/outfit/job/khan/chief_enforcer
 
 	loadout_options = list(
-		/datum/outfit/loadout/soldier,
+		/datum/outfit/loadout/chief_enforcer,
 		)
 
 /datum/outfit/job/khan/chief_enforcer
@@ -185,7 +182,7 @@
 	H.AddSpell(new /obj/effect/proc_holder/spell/terrifying_presence)
 
 /datum/outfit/loadout/chief_enforcer
-	name = "True Enforcer"
+	name = "Chief Enforcer"
 	belt = /obj/item/storage/belt/bandolier
 	r_hand = /obj/item/gun/ballistic/shotgun/automatic/combat/neostead_noalt/khan
 	suit = /obj/item/clothing/suit/toggle/labcoat/f13/khan_jacket/coat
@@ -217,9 +214,10 @@
 	outfit = /datum/outfit/job/khan/enforcer
 
 	loadout_options = list(
-		/datum/outfit/loadout/soldier,
-		/datum/outfit/loadout/soldierb,
 		)
+
+/datum/outfit/job/khan/enforcer
+	jobtype = /datum/job/khan/enforcer
 
 /datum/outfit/job/khan/enforcer/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -245,9 +243,10 @@
 	outfit = /datum/outfit/job/khan/soldier
 
 	loadout_options = list(
-		/datum/outfit/loadout/soldier,
-		/datum/outfit/loadout/soldierb,
 		)
+
+/datum/outfit/job/khan/soldier
+	jobtype = /datum/job/khan/soldier
 
 /datum/job/khan/sergeant
 	title = "Khan Sergeant"
@@ -264,9 +263,10 @@
 	outfit = /datum/outfit/job/khan/sergeant
 
 	loadout_options = list(
-		/datum/outfit/loadout/soldier,
-		/datum/outfit/loadout/soldierb,
 		)
+
+/datum/outfit/job/khan/sergeant
+	jobtype = /datum/job/khan/sergeant
 
 /datum/outfit/job/khan/sergeant/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -291,9 +291,10 @@
 	outfit = /datum/outfit/job/khan/muscle
 
 	loadout_options = list(
-		/datum/outfit/loadout/soldier,
-		/datum/outfit/loadout/soldierb,
 		)
+
+/datum/outfit/job/khan/muscle
+	jobtype = /datum/job/khan/muscle
 
 /datum/job/khan/chemist
 	title = "Khan Scholar"
@@ -316,123 +317,8 @@
 		/datum/outfit/loadout/quack,
 		)
 
-/datum/job/khan/smith
-	title = "Khan Quartermaster"
-	flag = F13KHANQUARTERMASTER
-	faction = FACTION_KHAN
-	total_positions = 2
-	spawn_positions = 2
-	description = "You are a Darxan, a Quartermaster with expertise in smithing, mechanics, and electrics. You maintain and build the various kinds of armor and weapons employed by the Khanate, make sure Bighorn's generators are kept operational, and provide Warbikes to the Moritons."
-	enforces = "You have control over the forge, a valuable asset in maintaining your presence in the area."
-	supervisors = "The Chieftain, the Enforcers, and the Five Laws."
-	selection_color = "#ff915e"
-	req_admin_notify = 1
-	exp_requirements = 0
-	roleplay_exclusive_notify = 1
-	exp_type = EXP_TYPE_KHAN
-	outfit = /datum/outfit/job/khan/smith
-
-	loadout_options = list(
-		/datum/outfit/loadout/smith//one for now
-		)
-
-/datum/job/khan/merchant
-	title = "Khan Merchant"
-	flag = F13KHANMERCHANT
-	faction = FACTION_KHAN
-	total_positions = 2
-	spawn_positions = 2
-	description = "You are a Karvanchin, a Khan merchant with access to a cargo truck that travels between Bighorn and New Canaan."
-	enforces = "You are responsible for bankrolling the efforts of the Khans by trading with locals and exporting their wares in exchange for a cut of the profits, and maybe even a shiny new piece of deadly hardware."
-	supervisors = "The Chieftain, the Enforcers, and the Five Laws."
-	selection_color = "#ff915e"
-	req_admin_notify = 1
-	exp_requirements = 0
-	roleplay_exclusive_notify = 1
-	exp_type = EXP_TYPE_KHAN
-	outfit = /datum/outfit/job/khan/smith
-
-	loadout_options = list(
-		/datum/outfit/loadout/merchant//one for now
-		)
-
-/datum/job/khan/courtesan
-	title = "Khan Musician"
-	flag = F13KHANMUSICIAN
-	faction = FACTION_KHAN
-	total_positions = 3
-	spawn_positions = 3
-	description = "You are a Shakai, a traditional singer, poet, artist, and musician in the Great Khanate. As with any Khan, you are no weakling and should not allow anyone to treat you as one. Your position is an honored one, responsible for composing the cultural arts of the Khanate."
-	enforces = "You are often staff in the Rising Sun tavern, maintaining some modicum of decency, composing song, prose, and dance to entertain guests, and creating art to decorate the tavern."
-	supervisors = "The Chieftain, the Enforcers, and the Five Laws."
-	selection_color = "#ff915e"
-	req_admin_notify = 1
-	exp_requirements = 0
-	roleplay_exclusive_notify = 1
-	exp_type = EXP_TYPE_WASTELAND
-	outfit = /datum/outfit/job/khan/courtesan
-
-	loadout_options = list(
-		/datum/outfit/loadout/courtesana,
-		/datum/outfit/loadout/courtesanb,
-		)
-
-
-//=========================================================== LOADOUT DATUMS ===========================================================
-
-/datum/outfit/job/khan/enforcer
-	jobtype = /datum/job/khan/enforcer
-
-/datum/outfit/job/khan/sergeant
-	jobtype = /datum/job/khan/sergeant
-
-/datum/outfit/job/khan/soldier
-	jobtype = /datum/job/khan/soldier
-
 /datum/outfit/job/khan/chemist
 	jobtype = /datum/job/khan/chemist
-
-/datum/outfit/job/khan/smith
-	jobtype = /datum/job/khan/smith
-	gunsmith_one = TRUE
-	gunsmith_two = TRUE
-	gunsmith_three = TRUE
-	gunsmith_four = TRUE
-
-/datum/outfit/job/khan/muscle
-	jobtype = /datum/job/khan/muscle
-
-/datum/outfit/job/khan/merchant
-	jobtype = /datum/job/khan/merchant
-
-/datum/outfit/job/khan/courtesan
-	jobtype = /datum/job/khan/courtesan
-
-
-//KHAN =================================================================
-
-/datum/outfit/loadout/soldier
-	name = "Heavy Enforcer"
-	belt = /obj/item/storage/backpack/spearquiver
-	l_hand = /obj/item/shield/riot/buckler/stop
-	r_hand = /obj/item/melee/onehanded/machete/scrapsabre/khan
-	suit = /obj/item/clothing/suit/toggle/labcoat/f13/khan_jacket/armored
-	head = /obj/item/clothing/head/helmet/f13/khan
-	backpack_contents = list(
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1,
-	)
-
-/datum/outfit/loadout/soldierb
-	name = "Light Enforcer"
-	belt = /obj/item/storage/belt/bandolier
-	r_hand = /obj/item/gun/ballistic/automatic/marksman/policerifle_khans
-	suit = /obj/item/clothing/suit/toggle/labcoat/f13/khan_jacket/armored
-	head = /obj/item/clothing/head/helmet/f13/khan/bandana
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle = 3,
-	)
-
-//CHEMIST =================================================================
 
 /datum/outfit/loadout/chemist
 	name = "Chemist"
@@ -461,22 +347,32 @@
 	ADD_TRAIT(H, TRAIT_RESEARCHER, src)
 	ADD_TRAIT(H, TRAIT_SURGERY_MID, src)
 
-//SENIOR =================================================================
+/datum/job/khan/smith
+	title = "Khan Quartermaster"
+	flag = F13KHANQUARTERMASTER
+	faction = FACTION_KHAN
+	total_positions = 2
+	spawn_positions = 2
+	description = "You are a Darxan, a Quartermaster with expertise in smithing, mechanics, and electrics. You maintain and build the various kinds of armor and weapons employed by the Khanate, make sure Bighorn's generators are kept operational, and provide Warbikes to the Moritons."
+	enforces = "You have control over the forge, a valuable asset in maintaining your presence in the area."
+	supervisors = "The Chieftain, the Enforcers, and the Five Laws."
+	selection_color = "#ff915e"
+	req_admin_notify = 1
+	exp_requirements = 0
+	roleplay_exclusive_notify = 1
+	exp_type = EXP_TYPE_KHAN
+	outfit = /datum/outfit/job/khan/smith
 
-/datum/outfit/loadout/senior
-	name = "True Enforcer"
-	belt = /obj/item/storage/belt/bandolier
-	r_hand = /obj/item/gun/ballistic/shotgun/automatic/combat/neostead_noalt/khan
-	suit = /obj/item/clothing/suit/toggle/labcoat/f13/khan_jacket/coat
-	head = /obj/item/clothing/head/helmet/f13/khan/fullhelm
-	backpack_contents = list(
-		/obj/item/ammo_box/clip/shotgun/loaded/flechette = 3,
-		/obj/item/storage/box/medicine/stimpaks/stimpaks5 = 1,
-		/obj/item/melee/onehanded/machete/scrapsabre/khan = 1,
-		/obj/item/stack/f13Cash/caps/onezerozerozero = 1,
-)
+	loadout_options = list(
+		/datum/outfit/loadout/smith//one for now
+		)
 
-//SMITH =================================================================
+/datum/outfit/job/khan/smith
+	jobtype = /datum/job/khan/smith
+	gunsmith_one = TRUE
+	gunsmith_two = TRUE
+	gunsmith_three = TRUE
+	gunsmith_four = TRUE
 
 /datum/outfit/loadout/smith
 	name = "Khan Smith"
@@ -511,7 +407,28 @@
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalwar/cheaparrow)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/shotgunammoflechette)
 
-//Merchant ==================================================================
+/datum/job/khan/merchant
+	title = "Khan Merchant"
+	flag = F13KHANMERCHANT
+	faction = FACTION_KHAN
+	total_positions = 2
+	spawn_positions = 2
+	description = "You are a Karvanchin, a Khan merchant with access to a cargo truck that travels between Bighorn and New Canaan."
+	enforces = "You are responsible for bankrolling the efforts of the Khans by trading with locals and exporting their wares in exchange for a cut of the profits, and maybe even a shiny new piece of deadly hardware."
+	supervisors = "The Chieftain, the Enforcers, and the Five Laws."
+	selection_color = "#ff915e"
+	req_admin_notify = 1
+	exp_requirements = 0
+	roleplay_exclusive_notify = 1
+	exp_type = EXP_TYPE_KHAN
+	outfit = /datum/outfit/job/khan/smith
+
+	loadout_options = list(
+		/datum/outfit/loadout/merchant//one for now
+		)
+
+/datum/outfit/job/khan/merchant
+	jobtype = /datum/job/khan/merchant
 
 /datum/outfit/loadout/merchant
 	name = "Khan Merchant"
@@ -520,7 +437,29 @@
 		/obj/item/stack/f13Cash/caps/onezerozerozero = 5,
 		)
 
-//COURTESAN =================================================================
+/datum/job/khan/courtesan
+	title = "Khan Musician"
+	flag = F13KHANMUSICIAN
+	faction = FACTION_KHAN
+	total_positions = 3
+	spawn_positions = 3
+	description = "You are a Shakai, a traditional singer, poet, artist, and musician in the Great Khanate. As with any Khan, you are no weakling and should not allow anyone to treat you as one. Your position is an honored one, responsible for composing the cultural arts of the Khanate."
+	enforces = "You are often staff in the Rising Sun tavern, maintaining some modicum of decency, composing song, prose, and dance to entertain guests, and creating art to decorate the tavern."
+	supervisors = "The Chieftain, the Enforcers, and the Five Laws."
+	selection_color = "#ff915e"
+	req_admin_notify = 1
+	exp_requirements = 0
+	roleplay_exclusive_notify = 1
+	exp_type = EXP_TYPE_WASTELAND
+	outfit = /datum/outfit/job/khan/courtesan
+
+	loadout_options = list(
+		/datum/outfit/loadout/courtesana,
+		/datum/outfit/loadout/courtesanb,
+		)
+
+/datum/outfit/job/khan/courtesan
+	jobtype = /datum/job/khan/courtesan
 
 /datum/outfit/loadout/courtesana
 	name = "Female Singer"//Just the town singer loadout for now.
@@ -540,5 +479,3 @@
 	/obj/item/clothing/under/suit/black_really = 1,
 	/obj/item/clothing/gloves/color/white = 1,
 	)
-
-
